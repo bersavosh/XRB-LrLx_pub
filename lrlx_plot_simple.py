@@ -29,7 +29,7 @@ plt.figure(figsize=(8,6))
 for i in src_list:
     # Plotting each class with different markers:
     if i['Class'] == 'BH':
-        BHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=4, c='k',mec='k',zorder=10,label='Quiescent/hard state BHs')
+        BHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=4, c='k',mec='k',zorder=2,label='Quiescent/hard state BHs')
     if i['Class'] == 'NS':
         NSs,=plt.loglog(i['Lx'],i['Lr'],'s',ms=5, c='#73C1F9',mec='k',mew=0.3,zorder=3,label='Hard state NSs')
     if i['Class'] == 'AMXP':
@@ -46,7 +46,7 @@ for i in src_list:
     if data_fmt == 'pickle':
         # Plotting errorbars (if available):
         if len(i['Lx_er']) > 0 and len(i['Lr_er']) > 0:
-                plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr_er'],xerr=i['Lx_er'], fmt='.',ms=0,ecolor='k')
+                plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr_er'],xerr=i['Lx_er'], fmt='.',ms=0,ecolor='k',zorder=2)
         # Upper limits:    
         if i['uplim'] == 'Lx':
            plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=3)
@@ -55,12 +55,12 @@ for i in src_list:
 
     if data_fmt == 'txt':
         # Plotting errorbars (if available):
-        plt.errorbar(i['Lx'],i['Lr'],yerr=[[i['Lr_ler']],[i['Lr_uer']]],xerr=[[i['Lx_ler']],[i['Lx_uer']]], fmt='.',ms=0,ecolor='k',zorder=1)
+        plt.errorbar(i['Lx'],i['Lr'],yerr=[[i['Lr_ler']],[i['Lr_uer']]],xerr=[[i['Lx_ler']],[i['Lx_uer']]], fmt='.',ms=0,ecolor='k',zorder=2)
         # Upper limits:    
         if i['uplim'] == 'Lx':
-            plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=1)
+            plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=3)
         if i['uplim'] == 'Lr':
-            plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr']*0.5, fmt='.', ms=0, uplims=True,ecolor='k',capsize=0,zorder=1)
+            plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr']*0.5, fmt='.', ms=0, uplims=True,ecolor='k',capsize=0,zorder=3)
 
 # Legends:
 if 'UIs' in globals():
