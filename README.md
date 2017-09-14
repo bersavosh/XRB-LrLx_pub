@@ -11,3 +11,6 @@ Since publication, the following updates have been applied:
 - M62 VLA1 updated based on Bahramian et al. in prep.
 
 This repository is maintained and updated by [Arash Bahramian](bersavosh.github.io). Feel free to contact me if you have suggestions/comments/questions.
+
+
+<p><img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="50%"></p>
