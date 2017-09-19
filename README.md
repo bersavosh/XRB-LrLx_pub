@@ -3,7 +3,7 @@ Quick LrLx plot based on published data
 
 This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source with the sample).
 
-This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein (see below).
+This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein (see below). The database and the plot get updated as new publications appear.
 
 ## References
 - **Quiescent/hard state black holes**: 
@@ -24,37 +24,37 @@ This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs
   - [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B)
 
 - **Hard state neutron stars**: 
-  - [Rutledge et al. 1998]()
-  - [Moore et al. 2000]()
-  - [Migliari et al. 2003]()
-  - [Migliari & Fender 2006]()
-  - [Tudose et al. 2009]()
-  - [Miller-Jones et al. 2010]()
-  - [Migliari et al. 2010]()
-  - [Migliari et al. 2011]()
+  - [Rutledge et al. 1998](http://adsabs.harvard.edu/abs/1998ATel....8....1R)
+  - [Moore et al. 2000](http://adsabs.harvard.edu/abs/2000ApJ...532.1181M)
+  - [Migliari et al. 2003](http://adsabs.harvard.edu/abs/2003MNRAS.342L..67M)
+  - [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
+  - [Tudose et al. 2009](http://adsabs.harvard.edu/abs/2009MNRAS.400.2111T)
+  - [Miller-Jones et al. 2010](http://adsabs.harvard.edu/abs/2010ApJ...716L.109M)
+  - [Migliari et al. 2010](http://adsabs.harvard.edu/abs/2010ApJ...710..117M)
+  - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
   - [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T) **NEW!**
 
 - **tMSPs (in accretion state)** 
-  - [Hill et al. 2011]()
-  - [Papitto et al. 2013]()
-  - [Deller et al. 2015]()
+  - [Hill et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415..235H)
+  - [Papitto et al. 2013](http://adsabs.harvard.edu/abs/2013Natur.501..517P)
+  - [Deller et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...809...13D)
 
 - **AMXPs**: 
-  - [Gaensler et al. 1999]()
-  - [Rupen et al. 2002]()
-  - [Fender et al. 2004b]()
-  - [Pooley 2004]()
-  - [Rupen et al. 2005]()
-  - [Migliari et al. 2011]()
+  - [Gaensler et al. 1999](http://adsabs.harvard.edu/abs/1999ApJ...522L.117G)
+  - [Rupen et al. 2002](http://adsabs.harvard.edu/abs/2002IAUC.7893....2R)
+  - [Fender et al. 2004](http://adsabs.harvard.edu/abs/2004ATel..361....1F)
+  - [Pooley 2004](http://adsabs.harvard.edu/abs/2004ATel..355....1P)
+  - [Rupen et al. 2005](http://adsabs.harvard.edu/abs/2005ATel..524....1R)
+  - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
 
 - **CVs (during flare/outburst period):** 
-  - [Eracleous et al. 1991]()
-  - [Abada-Simon et al. 1993]()
-  - [Russell et al. 2016]()
+  - [Eracleous et al. 1991](http://adsabs.harvard.edu/abs/1991ApJ...382..290E)
+  - [Abada-Simon et al. 1993](http://adsabs.harvard.edu/abs/1993ApJ...406..692A)
+  - [Russell et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460.3720R)
 
 - **Lines:**
-  - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006]()
-  - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006]()
+  - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
+  - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
 ## Updates:
 Since publication, the following updates have been applied:
