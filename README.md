@@ -1,4 +1,4 @@
-# XRB-LrLx_pub
+# Plot of disk-jet correlation plane in X-ray binaries
 Quick LrLx plot based on published data
 
 This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source with the sample).
