@@ -6,19 +6,55 @@ This is a simple script to make LrLx plot and manually add data points (e.g., co
 This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein (see below).
 
 ## References
-- Black holes: Miller-Jones et al. 2011b; Gallo et al. 2012, 2014; Ratti et al. 2012; Corbel et al. 2013; Munar-Adrover et al. 2014; Dzib et al. 2015
+- **Quiescent/hard state black holes**: 
+  - [Miller-Jones et al. 2011](http://adsabs.harvard.edu/abs/2011ApJ...739L..18M)
+  - [Gallo et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423..590G)
+  - [Ratti et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423.2656R)
+  - [Corbel et al. 2013](http://adsabs.harvard.edu/abs/2013MNRAS.428.2500C)
+  - [Gallo et al. 2014](http://adsabs.harvard.edu/abs/2014MNRAS.445..290G)
+  - [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M)
+  - [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D)
+  - [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R) **NEW!**
 
-- Black hole candidates based on LrLx correlation: Strader et al. 2012b; Chomiuk et al. 2013; Miller-Jones et al. 2015; Tetarenko, B., et al. 2016 
+- **Lr/Lx black hole candidates**: 
+  - [Strader et al. 2012](http://adsabs.harvard.edu/abs/2012Natur.490...71S)
+  - [Chomiuk et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...777...69C)
+  - [Miller-Jones et al. 2015](http://adsabs.harvard.edu/abs/2015MNRAS.453.3918M)
+  - [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T)
+  - [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B)
 
-- Neutron stars: Rutledge et al. 1998; Moore et al. 2000; Migliari et al. 2003, 2010, 2011; Migliari & Fender 2006; Tudose et al. 2009; Miller-Jones et al. 2010; Tetarenko, A., et al. 2016
+- **Hard state neutron stars**: 
+  - [Rutledge et al. 1998]()
+  - [Moore et al. 2000]()
+  - [Migliari et al. 2003]()
+  - [Migliari & Fender 2006]()
+  - [Tudose et al. 2009]()
+  - [Miller-Jones et al. 2010]()
+  - [Migliari et al. 2010]()
+  - [Migliari et al. 2011]()
+  - [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T) **NEW!**
 
-- Transitional millisecond pulsar: Hill et al. 2011; Papitto et al. 2013; Deller et al. 2015
-accreting millisecond pulsar: Gaensler et al. 1999; Rupen et al. 2002; Fender et al. 2004b; Pooley 2004; Rupen et al. 2005; Migliari et al. 2011
+- **tMSPs (in accretion state)** 
+  - [Hill et al. 2011]()
+  - [Papitto et al. 2013]()
+  - [Deller et al. 2015]()
 
-- CVs (during flare/outburst period): Eracleous et al. 1991; Abada-Simon et al. 1993; Russell et al. 2016
+- **AMXPs**: 
+  - [Gaensler et al. 1999]()
+  - [Rupen et al. 2002]()
+  - [Fender et al. 2004b]()
+  - [Pooley 2004]()
+  - [Rupen et al. 2005]()
+  - [Migliari et al. 2011]()
 
-- The dotted black line shows the best-fit relation for BHs (Gallo et al. 2006)
-- The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems (Migliari & Fender 2006).
+- **CVs (during flare/outburst period):** 
+  - [Eracleous et al. 1991]()
+  - [Abada-Simon et al. 1993]()
+  - [Russell et al. 2016]()
+
+- **Lines:**
+  - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006]()
+  - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006]()
 
 ## Updates:
 Since publication, the following updates have been applied:
