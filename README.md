@@ -8,13 +8,13 @@ This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs
 ## References
 - **Quiescent/hard state black holes**: 
   - [Miller-Jones et al. 2011](http://adsabs.harvard.edu/abs/2011ApJ...739L..18M)
+  - [Coriat et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.414..677C)
   - [Gallo et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423..590G)
   - [Ratti et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423.2656R)
   - [Corbel et al. 2013](http://adsabs.harvard.edu/abs/2013MNRAS.428.2500C)
   - [Gallo et al. 2014](http://adsabs.harvard.edu/abs/2014MNRAS.445..290G)
-  - [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M)
-  - [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D)
   - [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R) **NEW!**
+  - [Plotkin et al. 2017](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1709.05242) **NEW!**
 
 - **Lr/Lx black hole candidates**: 
   - [Strader et al. 2012](http://adsabs.harvard.edu/abs/2012Natur.490...71S)
@@ -58,7 +58,7 @@ This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs
 
 ## Updates:
 Since publication, the following updates have been applied:
-- MWC 656 updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R)
+- MWC 656 updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
 - EXO 1745-248 added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T)
 - M62 VLA1 updated based on Bahramian et al. in prep.
 
