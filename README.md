@@ -59,11 +59,14 @@ This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs
 
 ## Updates:
 Since publication, the following updates have been applied:
-- MWC 656 updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
-- EXO 1745-248 added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T)
-- M62 VLA1 updated based on Bahramian et al. in prep.
+- **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
+- **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
+- **M62 VLA1** updated based on Bahramian et al. in prep.
+- **Swift J1753.5−0127** more data added based on [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
 
-This repository is maintained and updated by [Arash Bahramian](bersavosh.github.io). Feel free to contact me if you have suggestions/comments/questions.
+## About:
+This repository is maintained and updated by [Arash Bahramian](bersavosh.github.io). Feel free to contact me if you have suggestions/comments/questions. 
 
+Thanks to James Miller-Jones, Jay Strader, Richard Plotkin and others for help and comments.
 
 <p><img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="50%"></p>
