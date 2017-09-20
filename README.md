@@ -5,6 +5,13 @@ This is a simple script to make LrLx plot and manually add data points (e.g., co
 
 This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein (see below). The database and the plot get updated as new publications appear.
 
+## Updates:
+Since publication, the following updates have been applied:
+- **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
+- **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
+- **M62 VLA1** updated based on Bahramian et al. in prep.
+- **Swift J1753.5−0127** more data added based on [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
+
 ## References
 - **Quiescent/hard state black holes**: 
   - [Miller-Jones et al. 2011](http://adsabs.harvard.edu/abs/2011ApJ...739L..18M)
@@ -56,13 +63,6 @@ This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs
 - **Lines:**
   - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
-
-## Updates:
-Since publication, the following updates have been applied:
-- **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
-- **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
-- **M62 VLA1** updated based on Bahramian et al. in prep.
-- **Swift J1753.5−0127** more data added based on [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
 
 ## About:
 This repository is maintained and updated by [Arash Bahramian](bersavosh.github.io). Feel free to contact me if you have suggestions/comments/questions. 
