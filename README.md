@@ -11,6 +11,7 @@ This plot is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs
   - [Coriat et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.414..677C)
   - [Gallo et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423..590G)
   - [Ratti et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423.2656R)
+  - [Jonker et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423.3308J)
   - [Corbel et al. 2013](http://adsabs.harvard.edu/abs/2013MNRAS.428.2500C)
   - [Gallo et al. 2014](http://adsabs.harvard.edu/abs/2014MNRAS.445..290G)
   - [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R) **NEW!**
