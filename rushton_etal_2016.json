@@ -5,7 +5,7 @@
       "Source": "1E1740.7-2942",
       "Distance": "8.5",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -25,7 +25,7 @@
       "Source": "4U1543-47",
       "Distance": "7.5",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -45,7 +45,7 @@
       "Source": "4U1957(soft)",
       "Distance": "22",
       "Reference": "R1?Upp.Lim",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -65,7 +65,7 @@
       "Source": "4U1957(soft)",
       "Distance": "7",
       "Reference": "R1?Upp.Lim",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -85,7 +85,7 @@
       "Source": "A0620-00",
       "Distance": "1.2",
       "Reference": "G06",
-      "Observation": [
+      "Observations": [
         {
           "Date": "53602.4",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -105,7 +105,7 @@
       "Source": "GROJ0422+32",
       "Distance": "2.5",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -138,7 +138,7 @@
       "Source": "GROJ1655-40",
       "Distance": "3.2",
       "Reference": "C10",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -171,7 +171,7 @@
       "Source": "GROJ1655-40",
       "Distance": "3.2",
       "Reference": "C10Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "0",
@@ -191,7 +191,7 @@
       "Source": "GROJ1655-40",
       "Distance": "3.2",
       "Reference": "C11b",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -263,7 +263,7 @@
       "Source": "GRS1758-258",
       "Distance": "8.5",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -283,7 +283,7 @@
       "Source": "GRS1915+105",
       "Distance": "11.0",
       "Reference": "R10",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -1421,7 +1421,7 @@
       "Source": "GS1354-64",
       "Distance": "25.0",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -1467,7 +1467,7 @@
       "Source": "GS2000+25",
       "Distance": "2.7",
       "Reference": "MJ11Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -1487,7 +1487,7 @@
       "Source": "GX339-4",
       "Distance": "8.0",
       "Reference": "C13",
-      "Observation": [
+      "Observations": [
         {
           "Date": "52368.7",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -2430,7 +2430,7 @@
       "Source": "GX339-4",
       "Distance": "8.0",
       "Reference": "C13,C03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "50483.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -2593,7 +2593,7 @@
       "Source": "GX339-4",
       "Distance": "8.0",
       "Reference": "C13,C03Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "51436",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -2613,7 +2613,7 @@
       "Source": "GX339-4",
       "Distance": "8.0",
       "Reference": "C13Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "55134.3",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -2659,7 +2659,7 @@
       "Source": "H1743-322",
       "Distance": "8.0",
       "Reference": "C11",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3121,7 +3121,7 @@
       "Source": "H1743-322",
       "Distance": "8.0",
       "Reference": "C11Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3154,7 +3154,7 @@
       "Source": "IGRJ17091-3624",
       "Distance": "20.0",
       "Reference": "R11",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3187,7 +3187,7 @@
       "Source": "IGRJ17177-3656",
       "Distance": "8.0",
       "Reference": "P11",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3207,7 +3207,7 @@
       "Source": "IGRJ17497-2821",
       "Distance": "8.0",
       "Reference": "R07Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "54004.5",
           "Radio Flux (4.8/5.5 GHz)": "0",
@@ -3227,7 +3227,7 @@
       "Source": "J1357.2",
       "Distance": "2.3",
       "Reference": "Plotkinetal.(2015)Upp.Lim",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3247,7 +3247,7 @@
       "Source": "J1357.2",
       "Distance": "6.3",
       "Reference": "Plotkinetal.(2015)Upp.Lim",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3267,7 +3267,7 @@
       "Source": "MAXIJ1659-152",
       "Distance": "8.0",
       "Reference": "J12",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "4.92",
@@ -3339,7 +3339,7 @@
       "Source": "MAXIJ1659-152",
       "Distance": "8.0",
       "Reference": "J12Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "0",
@@ -3372,7 +3372,7 @@
       "Source": "NeutronStar",
       "Distance": "-1.0",
       "Reference": "NS",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -3756,7 +3756,7 @@
       "Source": "SwiftJ1753",
       "Distance": "8",
       "Reference": "Rushtonetal.(2016)",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -4608,7 +4608,7 @@
       "Source": "SwiftJ1753(BAT)",
       "Distance": "8",
       "Reference": "Rushtonetal.(2016)",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -7709,7 +7709,7 @@
       "Source": "SwiftJ1753(soft)",
       "Distance": "2.8",
       "Reference": "Rushton16Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -7729,7 +7729,7 @@
       "Source": "SwiftJ1753(soft)",
       "Distance": "8",
       "Reference": "Rushton16Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -7749,7 +7749,7 @@
       "Source": "SwiftJ1753.5-0127",
       "Distance": "8.0",
       "Reference": "CB07",
-      "Observation": [
+      "Observations": [
         {
           "Date": "53593.3",
           "Radio Flux (4.8/5.5 GHz)": "0.65",
@@ -7769,7 +7769,7 @@
       "Source": "SwiftJ1753.5-0127",
       "Distance": "8.0",
       "Reference": "S10,C11b",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -7971,7 +7971,7 @@
       "Source": "V404Cyg",
       "Distance": "2.39",
       "Reference": "C08",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8251,7 +8251,7 @@
       "Source": "V4641Sgr",
       "Distance": "9.6",
       "Reference": "MJ11Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8271,7 +8271,7 @@
       "Source": "XTEJ1118+480",
       "Distance": "1.7",
       "Reference": "F10",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8408,7 +8408,7 @@
       "Source": "XTEJ1118+480",
       "Distance": "1.7",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8428,7 +8428,7 @@
       "Source": "XTEJ1118+480",
       "Distance": "1.7",
       "Reference": "G14",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8448,7 +8448,7 @@
       "Source": "XTEJ1118+480",
       "Distance": "1.7",
       "Reference": "MJ11Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8468,7 +8468,7 @@
       "Source": "XTEJ1550-564",
       "Distance": "5.3",
       "Reference": "C10Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "0",
@@ -8488,7 +8488,7 @@
       "Source": "XTEJ1550-564",
       "Distance": "5.3",
       "Reference": "G03",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8508,7 +8508,7 @@
       "Source": "XTEJ1650-500",
       "Distance": "2.6",
       "Reference": "C04",
-      "Observation": [
+      "Observations": [
         {
           "Date": "52159.9",
           "Radio Flux (4.8/5.5 GHz)": "1.90",
@@ -8567,7 +8567,7 @@
       "Source": "XTEJ1720-318",
       "Distance": "6.5",
       "Reference": "B05,F10",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8600,7 +8600,7 @@
       "Source": "XTEJ1752-223",
       "Distance": "8.0",
       "Reference": "B13",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "2.50",
@@ -8880,7 +8880,7 @@
       "Source": "XTEJ1752-223",
       "Distance": "8.0",
       "Reference": "R12",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -8978,7 +8978,7 @@
       "Source": "XTEJ1752-223",
       "Distance": "8.0",
       "Reference": "R12Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -9024,7 +9024,7 @@
       "Source": "XTEJ1859+226",
       "Distance": "6.3",
       "Reference": "MJ11Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
@@ -9044,7 +9044,7 @@
       "Source": "XTEJ1908+094",
       "Distance": "8.5",
       "Reference": "MJ11Upp.Lim.",
-      "Observation": [
+      "Observations": [
         {
           "Date": "-1.0",
           "Radio Flux (4.8/5.5 GHz)": "-1.00",
