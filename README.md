@@ -66,7 +66,7 @@ Since publication, the following updates have been applied:
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
 ## About:
-This repository is maintained and updated by [Arash Bahramian](bersavosh.github.io). Feel free to contact me if you have suggestions/comments/questions. 
+This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
 Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton) and others for help and comments.
 
