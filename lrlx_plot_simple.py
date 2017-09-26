@@ -39,7 +39,7 @@ for i in src_list:
     if i['Class'] == 'LrLx_BH':
         LrLxBHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=8, c='#F7ED57',mec='k',mew=0.2,zorder=3,label=r'Lr/Lx BH candidates')
     if i['Class'] == 'CV':
-        CVs,=plt.loglog(i['Lx'],i['Lr'],'d',ms=8, c='#8407F1',mec='k',mew=0.2,zorder=6,label='CVs')
+        CVs,=plt.loglog(i['Lx'],i['Lr'],'d',ms=8, c='#8407F1',mec='k',mew=0.2,zorder=6,label='CVs (at flare peak)')
     if i['Class'] == 'UI':
         UIs,=plt.loglog(i['Lx'],i['Lr'],'p',ms=8, c='r',mec='k',mew=0.2,zorder=8,label='New GC BH candidates')
 
