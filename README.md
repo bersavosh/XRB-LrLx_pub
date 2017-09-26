@@ -71,4 +71,4 @@ This repository is maintained and updated by [Arash Bahramian](https://bersavosh
 
 Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton) and others for help and comments.
 
-<p><img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="50%"></p>
+<p><img src="https://bersavosh.github.io/files/lrlx_plot.j" width="50%"></p>
