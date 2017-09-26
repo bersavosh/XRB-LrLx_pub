@@ -57,7 +57,7 @@ Since publication, the following updates have been applied:
   - [Rupen et al. 2005](http://adsabs.harvard.edu/abs/2005ATel..524....1R)
   - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
 
-- **CVs (during flare/outburst period):** 
+- **CVs (during flare):** 
   - [Eracleous et al. 1991](http://adsabs.harvard.edu/abs/1991ApJ...382..290E)
   - [Abada-Simon et al. 1993](http://adsabs.harvard.edu/abs/1993ApJ...406..692A)
   - [Russell et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460.3720R)
