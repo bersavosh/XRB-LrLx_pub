@@ -19,7 +19,7 @@ data_fmt = 'txt'
 #data_fmt = 'pickle'
 
 if data_fmt == 'txt':
-    src_list = ascii.read('lrlx_data.txt')
+    src_list = ascii.read('lrlx_data.csv')
 
 if data_fmt == 'pickle':
     src_list = pickle.load(open('lrlx_data.p', 'rb' ))
