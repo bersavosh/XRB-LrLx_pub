@@ -10,7 +10,7 @@ Since publication, the following updates have been applied:
 - **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
 - **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
 - **M62 VLA1** updated based on Bahramian et al. in prep.
-- **Swift J1753.5−0127** more data added based on [Rushton et al.2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
+- **Swift J1753.5−0127** more data added based on [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
 
 ## References
 - **Quiescent/hard state black holes**: 
