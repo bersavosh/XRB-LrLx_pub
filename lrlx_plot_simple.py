@@ -96,4 +96,4 @@ plt.tick_params(axis='both', which='major', labelsize=16)
 plt.tick_params(axis='both', which='both',direction='in',right='on',top='on')
 
 # Saving
-plt.savefig('./lrlx_plot_simple.jpg', bbox_inches='tight')
+plt.savefig('./lrlx_plot.pdf', bbox_inches='tight')
