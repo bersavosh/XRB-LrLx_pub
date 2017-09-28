@@ -3,7 +3,7 @@ Radi vs. X-ray Luminosity plot based on published data
 
 This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source with the sample).
 
-[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_simple.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as new publications appear.
+[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as new publications appear.
 
 ## Updates:
 Since publication, the following updates have been applied:
