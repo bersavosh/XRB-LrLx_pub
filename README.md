@@ -1,5 +1,5 @@
 # Plot of disk-jet correlation plane in X-ray binaries
-Radi vs. X-ray Luminosity plot based on published data
+Radio vs. X-ray Luminosity plot based on published data
 
 This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source to the sample).
 
