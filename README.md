@@ -1,9 +1,9 @@
 # Plot of disk-jet correlation plane in X-ray binaries
-Radi vs. X-ray Luminosity plot based on published data
+Radio vs. X-ray Luminosity plot based on published data
 
-This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source with the sample).
+This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source to the sample).
 
-[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_simple.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as new publications appear.
+[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as new publications appear.
 
 ## Updates:
 Since publication, the following updates have been applied:
@@ -11,6 +11,7 @@ Since publication, the following updates have been applied:
 - **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
 - **M62 VLA1** updated based on Bahramian et al. in prep.
 - **Swift J1753.5−0127** more data added based on [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
+- **New AMXPs and NSs added** Data for AMXPs IGR J00291+5934, SAX J1808.4-3658, IGR J17511-3057 and NS Cen X-4 (in quiescence) added from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T).
 
 ## References
 - **Quiescent/hard state black holes**: 
@@ -43,11 +44,7 @@ Since publication, the following updates have been applied:
   - [Migliari et al. 2010](http://adsabs.harvard.edu/abs/2010ApJ...710..117M)
   - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
   - [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T) **NEW!**
-
-- **tMSPs (in accretion state)** 
-  - [Hill et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415..235H)
-  - [Papitto et al. 2013](http://adsabs.harvard.edu/abs/2013Natur.501..517P)
-  - [Deller et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...809...13D)
+  - [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) **NEW!**
 
 - **AMXPs**: 
   - [Gaensler et al. 1999](http://adsabs.harvard.edu/abs/1999ApJ...522L.117G)
@@ -56,6 +53,12 @@ Since publication, the following updates have been applied:
   - [Pooley 2004](http://adsabs.harvard.edu/abs/2004ATel..355....1P)
   - [Rupen et al. 2005](http://adsabs.harvard.edu/abs/2005ATel..524....1R)
   - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
+  - [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) **NEW!**
+
+- **tMSPs (in accretion state)** 
+  - [Hill et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415..235H)
+  - [Papitto et al. 2013](http://adsabs.harvard.edu/abs/2013Natur.501..517P)
+  - [Deller et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...809...13D)
 
 - **CVs (during flare):** 
   - [Eracleous et al. 1991](http://adsabs.harvard.edu/abs/1991ApJ...382..290E)
@@ -69,4 +72,4 @@ Since publication, the following updates have been applied:
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton) and others for help and comments.
+Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/) and others for help and comments.
