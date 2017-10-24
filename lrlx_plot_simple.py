@@ -46,21 +46,21 @@ for i in src_list:
     if data_fmt == 'pickle':
         # Plotting errorbars (if available):
         if len(i['Lx_er']) > 0 and len(i['Lr_er']) > 0:
-                plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr_er'],xerr=i['Lx_er'], fmt='.',ms=0,ecolor='k',zorder=2)
+                plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr_er'],xerr=i['Lx_er'], fmt='.',ms=0,ecolor='k',zorder=2,elinewidth=1)
         # Upper limits:    
         if i['uplim'] == 'Lx':
-           plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=3)
+           plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=3,elinewidth=1)
         if i['uplim'] == 'Lr':
-            plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr']*0.5, fmt='.', ms=0, uplims=True,ecolor='k',capsize=0,zorder=3)
+            plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr']*0.5, fmt='.', ms=0, uplims=True,ecolor='k',capsize=0,zorder=3,elinewidth=1)
 
     if data_fmt == 'txt':
         # Plotting errorbars (if available):
-        plt.errorbar(i['Lx'],i['Lr'],yerr=[[i['Lr_ler']],[i['Lr_uer']]],xerr=[[i['Lx_ler']],[i['Lx_uer']]], fmt='.',ms=0,ecolor='k',zorder=2)
+        plt.errorbar(i['Lx'],i['Lr'],yerr=[[i['Lr_ler']],[i['Lr_uer']]],xerr=[[i['Lx_ler']],[i['Lx_uer']]], fmt='.',ms=0,ecolor='k',zorder=2,elinewidth=1)
         # Upper limits:    
         if i['uplim'] == 'Lx':
-            plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=3)
+            plt.errorbar(i['Lx'],i['Lr'],xerr=i['Lx']*0.6, fmt='.', ms=0, xuplims=True,ecolor='k',capsize=0,zorder=3,elinewidth=1)
         if i['uplim'] == 'Lr':
-            plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr']*0.5, fmt='.', ms=0, uplims=True,ecolor='k',capsize=0,zorder=3)
+            plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr']*0.5, fmt='.', ms=0, uplims=True,ecolor='k',capsize=0,zorder=3,elinewidth=1)
 
 # Legends:
 if 'UIs' in globals():
