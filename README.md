@@ -12,6 +12,7 @@ Since publication, the following updates have been applied:
 - **M62 VLA1** updated based on Bahramian et al. in prep.
 - **Swift J1753.5−0127** more data added based on [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
 - **New AMXPs and NSs added** Data for AMXPs IGR J00291+5934, SAX J1808.4-3658, IGR J17511-3057 and NS Cen X-4 (in quiescence) added from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T).
+- **SAX J1748.9-2021** added based on [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1). Note: The observed X-ray activity (which Tetarenko et al.'s results are based on), is not yet been confirmed to be from SAX J1748.9-2021 (as opposed to other X-ray sources in globular cluster NGC 6440). However, this source is the most likely origin.
 
 ## References
 - **Quiescent/hard state black holes**: 
@@ -54,6 +55,7 @@ Since publication, the following updates have been applied:
   - [Rupen et al. 2005](http://adsabs.harvard.edu/abs/2005ATel..524....1R)
   - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
   - [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) **NEW!**
+  - [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1) **NEW!**
 
 - **tMSPs (in accretion state)** 
   - [Hill et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415..235H)
@@ -72,4 +74,4 @@ Since publication, the following updates have been applied:
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/) and others for help and comments.
+Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/) and others for help and comments.
