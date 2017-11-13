@@ -13,6 +13,7 @@ Since publication, the following updates have been applied:
 - **Swift J1753.5−0127** more data added based on [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
 - **New AMXPs and NSs added** Data for AMXPs IGR J00291+5934, SAX J1808.4-3658, IGR J17511-3057 and NS Cen X-4 (in quiescence) added from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T).
 - **SAX J1748.9-2021** added based on [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1). Note: The observed X-ray activity (which Tetarenko et al.'s results are based on), is not yet been confirmed to be from SAX J1748.9-2021 (as opposed to other X-ray sources in globular cluster NGC 6440). However, this source is the most likely origin.
+- **1RXS J180408.9-34205** added based on [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G).
 
 ## References
 - **Quiescent/hard state black holes**: 
@@ -46,6 +47,7 @@ Since publication, the following updates have been applied:
   - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
   - [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T) **NEW!**
   - [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) **NEW!**
+  - [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G) **NEW!**
 
 - **AMXPs**: 
   - [Gaensler et al. 1999](http://adsabs.harvard.edu/abs/1999ApJ...522L.117G)
