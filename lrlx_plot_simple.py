@@ -29,19 +29,19 @@ plt.figure(figsize=(8,6))
 for i in src_list:
     # Plotting each class with different markers:
     if i['Class'] == 'BH':
-        BHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=4, c='k',mec='k',zorder=2,label='Quiescent/hard state BHs')
+        BHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=4, c='0.4',mec='k',zorder=2,mew=0.3,label='Quiescent/hard state BHs')
     if i['Class'] == 'NS':
-        NSs,=plt.loglog(i['Lx'],i['Lr'],'s',ms=5, c='#73C1F9',mec='k',mew=0.3,zorder=3,label='Hard state NSs')
+        NSs,=plt.loglog(i['Lx'],i['Lr'],'s',ms=5, c='#73C1F9',mec='k',mew=0.3,zorder=3,label='Quiescent/hard state NSs')
     if i['Class'] == 'AMXP':
         AMXPs,=plt.loglog(i['Lx'],i['Lr'],'*',ms=10,c='#F45FE0',mec='k',mew=0.2,zorder=3,label='AMXPs')
     if i['Class'] == 'tMSP':
         tMSPs,=plt.loglog(i['Lx'],i['Lr'],'^',ms=8,c='#1AD668',mec='k',mew=0.2,zorder=2,label='tMSPs (in accretion state)')
     if i['Class'] == 'LrLx_BH':
-        LrLxBHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=8, c='#F7ED57',mec='k',mew=0.2,zorder=3,label=r'Lr/Lx BH candidates')
+        LrLxBHs,=plt.loglog(i['Lx'],i['Lr'],'o',ms=6, c='#F7ED57',mec='k',mew=0.2,zorder=3,label=r'Lr/Lx BH candidates')
     if i['Class'] == 'CV':
         CVs,=plt.loglog(i['Lx'],i['Lr'],'d',ms=8, c='#8407F1',mec='k',mew=0.2,zorder=6,label='CVs (at flare peak)')
     if i['Class'] == 'UI':
-        UIs,=plt.loglog(i['Lx'],i['Lr'],'p',ms=8, c='r',mec='k',mew=0.2,zorder=8,label='New GC BH candidates')
+        UIs,=plt.loglog(i['Lx'],i['Lr'],'p',ms=8, c='r',mec='k',mew=0.2,zorder=8,label='unidentified')
 
     if data_fmt == 'pickle':
         # Plotting errorbars (if available):
