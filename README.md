@@ -8,23 +8,8 @@ This is a database for (simultaneous) radio and X-ray observation of X-ray binar
 The most recent version of this database and plot is reported in Tetarenko, A., et al. 2018.
 
 *Last update: Jan 17, 2018*
-
-## List of updates:
-Since publication, the following updates have been applied:
-- **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
-- **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
-- **M62 VLA1** updated based on Bahramian et al. in prep.
-- **Swift J1753.5−0127** more data added based on [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
-- **New AMXPs and NSs added** Data for AMXPs IGR J00291+5934, SAX J1808.4-3658, IGR J17511-3057 and NS Cen X-4 (in quiescence) added from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T).
-- **SAX J1748.9-2021** added based on [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1). Note: The observed X-ray activity (which Tetarenko et al.'s results are based on), is not yet been confirmed to be from SAX J1748.9-2021 (as opposed to other X-ray sources in globular cluster NGC 6440). However, this source is the most likely origin.
-- **1RXS J180408.9-34205** added based on [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G).
-- **Major update (Jan 2018)**:
-    - New data points for MAXI J0911−635, SAX J1748.9−2021, Swift J175233.9-290952, 4U 1543−624, MAXI J0556−332, MXB 1730−335 based on [Tetarenko et al. 2018]().
-    - AR Scorpii added based on [Marsh et al. 2016](http://adsabs.harvard.edu/abs/2016Natur.537..374M). 
-    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. http://adsabs.harvard.edu/abs/2017arXiv170908574B].
-    - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
-    
-## Included sources:
+   
+## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
@@ -71,6 +56,20 @@ All the sources included in this database and plot are tabulated below. Addition
 |                 AE Aqr |      CV |             None |                              Eracleous et al. 1991, ApJ, 382, 290; Abada-Simon et al. 1993, ApJ, 406, 692 |
 |                 AR Sco |      CV |             None |                                                                        Marsh et al. 2016, Natur, 537, 374 |
 
+## List of updates:
+Since publication, the following updates have been applied:
+- **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
+- **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
+- **M62 VLA1** updated based on Bahramian et al. in prep.
+- **Swift J1753.5−0127** more data added based on [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) and [Plotkin et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170905242P).
+- **New AMXPs and NSs added** Data for AMXPs IGR J00291+5934, SAX J1808.4-3658, IGR J17511-3057 and NS Cen X-4 (in quiescence) added from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T).
+- **SAX J1748.9-2021** added based on [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1). Note: The observed X-ray activity (which Tetarenko et al.'s results are based on), is not yet been confirmed to be from SAX J1748.9-2021 (as opposed to other X-ray sources in globular cluster NGC 6440). However, this source is the most likely origin.
+- **1RXS J180408.9-34205** added based on [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G).
+- **Major update (Jan 2018)**:
+    - New data points for MAXI J0911−635, SAX J1748.9−2021, Swift J175233.9-290952, 4U 1543−624, MAXI J0556−332, MXB 1730−335 based on [Tetarenko et al. 2018]().
+    - AR Scorpii added based on [Marsh et al. 2016](http://adsabs.harvard.edu/abs/2016Natur.537..374M). 
+    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. http://adsabs.harvard.edu/abs/2017arXiv170908574B].
+    - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 
 ## **Correlation lines:**
 WARNING: As shown in [Tetarenko et al. 2018](), NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script.
