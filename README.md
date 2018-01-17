@@ -10,7 +10,7 @@ The most recent version of this database and plot is reported in Tetarenko, A., 
 *Last update: Jan 17, 2018*
    
 ## List of sources:
-All the sources included in this database and plot are tabulated below. Additionally, there are available in CSV and python pickle formats. A version of the LrLx plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
+All the sources included in this database and plot are tabulated below. Additionally, there are available in CSV and python pickle formats. A version of the LrLx plot with all sources labeled is available [here](https://bersavosh.github.io/files/lrlx_plot.jpg).
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
 |------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
@@ -80,3 +80,6 @@ WARNING: As shown in [Tetarenko et al. 2018](), NS XRBs and AMXPs do not seem to
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
 Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), and others for help and comments.
+
+<img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="600">
+
