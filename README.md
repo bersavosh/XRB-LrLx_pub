@@ -8,7 +8,13 @@ This is a database for (simultaneous) radio and X-ray observation of X-ray binar
 The most recent version of this database and plot is reported in Tetarenko, A., et al. 2018.
 
 *Last update: Jan 17, 2018*
-   
+
+## Contents:
+   - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
+   - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
+   - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
+   - [About](https://github.com/bersavosh/XRB-LrLx_pub#about)
+
 ## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, there are available in CSV and python pickle formats. A version of the LrLx plot with all sources labeled is available [here](https://bersavosh.github.io/files/lrlx_plot.jpg).
 
