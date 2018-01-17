@@ -81,5 +81,5 @@ This repository is maintained and updated by [Arash Bahramian](https://bersavosh
 
 Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), and others for help and comments.
 
-<img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="1000">
+<img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="800">
 
