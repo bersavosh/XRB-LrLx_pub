@@ -10,7 +10,7 @@ The most recent version of this database and plot is reported in Tetarenko, A., 
 *Last update: Jan 17, 2018*
    
 ## List of sources:
-All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
+All the sources included in this database and plot are tabulated below. Additionally, there are available in CSV and python pickle formats. A version of the LrLx plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
 |------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
