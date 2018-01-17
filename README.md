@@ -9,7 +9,7 @@ The most recent version of this database and plot is reported in Tetarenko, A., 
 
 *Last update: Jan 17, 2018*
 
-## Updates:
+## List of updates:
 Since publication, the following updates have been applied:
 - **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
 - **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
@@ -24,7 +24,7 @@ Since publication, the following updates have been applied:
     - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. http://adsabs.harvard.edu/abs/2017arXiv170908574B].
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
     
-## Sources:
+## Included sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
