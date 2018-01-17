@@ -1,11 +1,13 @@
 # Plot of disk-jet correlation plane in X-ray binaries
 Radio vs. X-ray Luminosity plot based on published data
 
-This is a simple script to make LrLx plot and manually add data points (e.g., comparing a new source to the sample).
+This is a database for (simultaneous) radio and X-ray observation of X-ray binaries and a simple python script to make the LrLx plot.
 
-[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as new publications appear.
+[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as we notice new publications.
 
-*Last update: Nov 13, 2017*
+The most recent version of this database and plot is reported in Tetarenko, A., et al. 2018.
+
+*Last update: Jan 17, 2018*
 
 ## Updates:
 Since publication, the following updates have been applied:
@@ -16,66 +18,66 @@ Since publication, the following updates have been applied:
 - **New AMXPs and NSs added** Data for AMXPs IGR J00291+5934, SAX J1808.4-3658, IGR J17511-3057 and NS Cen X-4 (in quiescence) added from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T).
 - **SAX J1748.9-2021** added based on [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1). Note: The observed X-ray activity (which Tetarenko et al.'s results are based on), is not yet been confirmed to be from SAX J1748.9-2021 (as opposed to other X-ray sources in globular cluster NGC 6440). However, this source is the most likely origin.
 - **1RXS J180408.9-34205** added based on [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G).
+- **Major update (Jan 2018)**:
+    - New data points for MAXI J0911−635, SAX J1748.9−2021, Swift J175233.9-290952, 4U 1543−624, MAXI J0556−332, MXB 1730−335 based on [Tetarenko et al. 2018]().
+    - AR Scorpii added based on [Marsh et al. 2016](http://adsabs.harvard.edu/abs/2016Natur.537..374M). 
+    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. http://adsabs.harvard.edu/abs/2017arXiv170908574B].
+    - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
+    
+## Sources:
+All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
 
-## References
-- **Quiescent/hard state black holes**: 
-  - [Soleri et al. 2010](http://adsabs.harvard.edu/abs/2010MNRAS.406.1471S)
-  - [Miller-Jones et al. 2011](http://adsabs.harvard.edu/abs/2011ApJ...739L..18M)
-  - [Coriat et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.414..677C)
-  - [Gallo et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423..590G)
-  - [Ratti et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423.2656R)
-  - [Jonker et al. 2012](http://adsabs.harvard.edu/abs/2012MNRAS.423.3308J)
-  - [Corbel et al. 2013](http://adsabs.harvard.edu/abs/2013MNRAS.428.2500C)
-  - [Gallo et al. 2014](http://adsabs.harvard.edu/abs/2014MNRAS.445..290G)
-  - [Rushton et al.2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R) **NEW!**
-  - [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R) **NEW!**
-  - [Plotkin et al. 2017](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1709.05242) **NEW!**
+|                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
+|------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
+|               A0620-00 |      BH |             None |                                Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2017, arXiv, 1711.04330 |
+|          XTE J1118+480 |      BH |             None |                                                                    Miller-Jones et al. 2011, ApJ, 739, 18 |
+|               GX 339-4 |      BH |             None |                                                                      Corbel et al. 2013, MNRAS, 428, 2500 |
+|             H 1743-322 |      BH |             None |                                                                       Coriat et al. 2011, MNRAS, 414, 677 |
+|              V 404 Cyg |      BH |             None |                                                                      Corbel et al. 2008, MNRAS, 389, 1697 |
+|     Swift J1753.5-0127 |      BH |             None | Soleri et al. 2010 MNRAS 406 1471; Rushton et al. 2016 MNRAS, 463, 628, Plotkin et al. 2017, ApJ, 848, 92 |
+|         MAXI J1659-152 |      BH |             None |                                                                      Jonket et al. 2012, MNRAS, 423, 3308 |
+|          XTE J1752-223 |      BH |             None |                                                                       Ratti et al. 2012, MNRAS, 423, 2656 |
+|                MWC 656 |      BH |             None |                                                                            Ribo et al. 2017, ApJ, 835, 33 |
+|         MAXI J1836-194 |      BH |             None |                                                                     Russell et al. 2015, MNRAS, 450, 1745 |
+|               M62-VLA1 | LrLx_BH |              M62 |                                             Chomiuk et al. 2013, ApJ, 777, 69; Bahramian et al., in prep. |
+|             M22-VLA1,2 | LrLx_BH |              M22 |                                                                       Strader et al. 2012, Natur, 490, 71 |
+|               47Tuc X9 | LrLx_BH |            47Tuc |                       Miller-Jones et al. 2015, MNRAS, 453, 3918; Bahramian et al. 2017, MNRAS, 467, 2199 |
+|           VLA J2130+12 | LrLx_BH |             None |                                                                    B. Tetarenko et al. 2016, ApJ, 825, 10 |
+|        XSS J12270-4859 |    tMSP |             None |                                                                         Hill et al. 2011, MNRAS, 415, 235 |
+|        IGR J18245-2452 |    tMSP |              M28 |                                                                      Papitto et al. 2013, Natur, 501, 517 |
+|         PSR J1023+0038 |    tMSP |             None |                                 Deller et al. 2015, ApJ, 809, 13; Bogdanov et al. 2017, arXiv, 1711.04791 |
+|           EXO 1745-248 |      NS |          Terzan5 |                                                                 A. Tetarenko et al. 2016, MNRAS, 460, 345 |
+|           EXO 1745-248 |      NS |          Terzan5 |                                                                 A. Tetarenko et al. 2016, MNRAS, 460, 345 |
+|                Cen X-4 |      NS |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
+|                Cen X-4 |      NS |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
+|  1RXS J180408.9-342058 |      NS |             None |                                                                 Gusinskaia et al., 2017, MNRAS, 470, 1871 |
+|  1RXS J180408.9-342058 |      NS |             None |                                                                 Gusinskaia et al., 2017, MNRAS, 470, 1871 |
+|         MAXI J0556-332 |      NS |             None |                                                                           Coriat et al., 2011, ATel, 3119 |
+|           MXB 1730-335 |      NS |             None |                                                                             Rutledge et al. 1998, ATel, 8 |
+|                Aql X-1 |      NS |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
+|             4U 1728-34 |      NS |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
+|            4U 0614+091 |      NS |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
+| Swift J175233.9-290952 | LrLx_NS |             None |                                                                        Tetarenko et al. 2017, ATel, 10422 |
+|            4U 1543-624 | LrLx_NS |             None |                                                                           Ludham et al. 2017, ATel, 10690 |
+|       SAX J1808.4-3658 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
+|        IGR J00291+5934 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
+|        IGR J00291+5934 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
+|        IGR J17511-3057 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
+|       SAX J1748.9-2021 |    AMXP |         NGC 6440 |                                 Miller-Jones et al., 2010, ATel, 2377; Tetarenko et al. 2017, ATel, 10843 |
+|        IGR J16597-3704 |    AMXP |         NGC 6256 |                                                                        Tetarenko et al. 2017, ATel, 10894 |
+|         MAXI J0911-635 |    AMXP |         NGC 2808 |                                                                             Tudor et al. 2016, ATel, 8914 |
+|          XTE J0929-314 |    AMXP |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
+|                 SS Cyg |      CV |             None |                                                                     Russell et al. 2016, MNRAS, 460, 3720 |
+|                 AE Aqr |      CV |             None |                              Eracleous et al. 1991, ApJ, 382, 290; Abada-Simon et al. 1993, ApJ, 406, 692 |
+|                 AR Sco |      CV |             None |                                                                        Marsh et al. 2016, Natur, 537, 374 |
 
-- **Lr/Lx black hole candidates**: 
-  - [Strader et al. 2012](http://adsabs.harvard.edu/abs/2012Natur.490...71S)
-  - [Chomiuk et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...777...69C)
-  - [Miller-Jones et al. 2015](http://adsabs.harvard.edu/abs/2015MNRAS.453.3918M)
-  - [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T)
-  - [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B)
 
-- **Hard state neutron stars**: 
-  - [Rutledge et al. 1998](http://adsabs.harvard.edu/abs/1998ATel....8....1R)
-  - [Moore et al. 2000](http://adsabs.harvard.edu/abs/2000ApJ...532.1181M)
-  - [Migliari et al. 2003](http://adsabs.harvard.edu/abs/2003MNRAS.342L..67M)
-  - [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
-  - [Tudose et al. 2009](http://adsabs.harvard.edu/abs/2009MNRAS.400.2111T)
-  - [Miller-Jones et al. 2010](http://adsabs.harvard.edu/abs/2010ApJ...716L.109M)
-  - [Migliari et al. 2010](http://adsabs.harvard.edu/abs/2010ApJ...710..117M)
-  - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
-  - [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T) **NEW!**
-  - [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) **NEW!**
-  - [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G) **NEW!**
-
-- **AMXPs**: 
-  - [Gaensler et al. 1999](http://adsabs.harvard.edu/abs/1999ApJ...522L.117G)
-  - [Rupen et al. 2002](http://adsabs.harvard.edu/abs/2002IAUC.7893....2R)
-  - [Fender et al. 2004](http://adsabs.harvard.edu/abs/2004ATel..361....1F)
-  - [Pooley 2004](http://adsabs.harvard.edu/abs/2004ATel..355....1P)
-  - [Rupen et al. 2005](http://adsabs.harvard.edu/abs/2005ATel..524....1R)
-  - [Migliari et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415.2407M)
-  - [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) **NEW!**
-  - [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1) **NEW!**
-
-- **tMSPs (in accretion state)** 
-  - [Hill et al. 2011](http://adsabs.harvard.edu/abs/2011MNRAS.415..235H)
-  - [Papitto et al. 2013](http://adsabs.harvard.edu/abs/2013Natur.501..517P)
-  - [Deller et al. 2015](http://adsabs.harvard.edu/abs/2015ApJ...809...13D)
-
-- **CVs (during flare):** 
-  - [Eracleous et al. 1991](http://adsabs.harvard.edu/abs/1991ApJ...382..290E)
-  - [Abada-Simon et al. 1993](http://adsabs.harvard.edu/abs/1993ApJ...406..692A)
-  - [Russell et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460.3720R)
-
-- **Lines:**
+## **Correlation lines:**
+WARNING: As shown in [Tetarenko et al. 2018](), NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script.
   - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Thanks to [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/) and others for help and comments.
+Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), and others for help and comments.
