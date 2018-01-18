@@ -74,7 +74,7 @@ Since publication, the following updates have been applied:
 - **Major update (Jan 2018)**:
     - New data points for MAXI J0911−635, SAX J1748.9−2021, Swift J175233.9-290952, 4U 1543−624, MAXI J0556−332, MXB 1730−335 based on [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
     - AR Scorpii added based on [Marsh et al. 2016](http://adsabs.harvard.edu/abs/2016Natur.537..374M). 
-    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. http://adsabs.harvard.edu/abs/2017arXiv170908574B].
+    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. 2017]( http://adsabs.harvard.edu/abs/2017arXiv170908574B).
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 
 ## **Correlation lines:**
