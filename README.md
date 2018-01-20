@@ -1,11 +1,11 @@
 # Plot of disk-jet correlation plane in X-ray binaries
-Radio vs. X-ray Luminosity plot based on published data
+Radio vs. X-ray Luminosity plot for X-ray binaries and transients based on published data.
 
-This is a database for (simultaneous) radio and X-ray observation of X-ray binaries and a simple python script to make the LrLx plot.
+This is a database for (simultaneous) radio and X-ray observations of X-ray binaries and contains a simple python script to produce the plot.
 
-[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as we notice new publications.
+[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). I update the database as I notice new publications.
 
-The most recent version of this database and plot is reported in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
+The most recent version of this database and plot are used in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
 
 *Last update: Jan 17, 2018*
 
