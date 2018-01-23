@@ -1,7 +1,7 @@
 # Plot of disk-jet correlation plane in X-ray binaries
 Catalog of Radio vs. X-ray Luminosity observations for X-ray binaries and transients based on published data.
 
-This is a database for (simultaneous) radio and X-ray observations of X-ray binaries and contains a simple python script to produce the plot.
+This is a database for (simultaneous and quasi-simultaneous) radio and X-ray observations of X-ray binaries and contains a simple python script to produce the plot.
 
 [This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). I update the database as I notice new publications.
 
