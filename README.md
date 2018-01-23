@@ -1,5 +1,5 @@
 # Plot of disk-jet correlation plane in X-ray binaries
-Radio vs. X-ray Luminosity plot for X-ray binaries and transients based on published data.
+Catalog of Radio vs. X-ray Luminosity observations for X-ray binaries and transients based on published data.
 
 This is a database for (simultaneous) radio and X-ray observations of X-ray binaries and contains a simple python script to produce the plot.
 
