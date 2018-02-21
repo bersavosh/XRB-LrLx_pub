@@ -1,29 +1,16 @@
 # Plot of disk-jet correlation plane in X-ray binaries
-Catalog of Radio vs. X-ray Luminosity observations for X-ray binaries and transients based on published data.
+Radio vs. X-ray Luminosity plot based on published data
 
-This is a database for (simultaneous and quasi-simultaneous) radio and X-ray observations of X-ray binaries and contains a simple python script to produce the plot.
+This is a database for (simultaneous) radio and X-ray observation of X-ray binaries and a simple python script to make the LrLx plot.
 
-[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). I update the database as I notice new publications.
+[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as we notice new publications.
 
-<<<<<<< HEAD
 The most recent version of this database and plot is reported in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
 
 *Last update: Feb 21, 2018*
    
-=======
-The most recent version of this database and plot are used in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
-
-*Last update: Jan 17, 2018*
-
-## Contents:
-   - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
-   - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
-   - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
-   - [About](https://github.com/bersavosh/XRB-LrLx_pub#about)
-
->>>>>>> a095cf1142729e1fe0e721139de37d85999ba33a
 ## List of sources:
-All the sources included in this database and plot are tabulated below. Additionally, the database is available in CSV and python pickle formats. A version of the LrLx plot with all sources labeled is available [here](https://bersavosh.github.io/files/lrlx_plot.jpg).
+All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_sources.pdf).
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
 |------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
@@ -80,9 +67,9 @@ Since publication, the following updates have been applied (in chronological ord
 - **SAX J1748.9-2021** added based on [Tetarenko et al. 2017](http://adsabs.harvard.edu/abs/2017ATel10843....1). Note: The observed X-ray activity (which Tetarenko et al.'s results are based on), is not yet been confirmed to be from SAX J1748.9-2021 (as opposed to other X-ray sources in globular cluster NGC 6440). However, this source is the most likely origin.
 - **1RXS J180408.9-34205** added based on [Gusinskaia et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470.1871G).
 - **Major update (Jan 2018)**:
-    - New data points for MAXI J0911−635, SAX J1748.9−2021, Swift J175233.9-290952, 4U 1543−624, MAXI J0556−332, MXB 1730−335 based on [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
+    - New data points for MAXI J0911−635, SAX J1748.9−2021, Swift J175233.9-290952, 4U 1543−624, MAXI J0556−332, MXB 1730−335 based on [Tetarenko et al. 2018]().
     - AR Scorpii added based on [Marsh et al. 2016](http://adsabs.harvard.edu/abs/2016Natur.537..374M). 
-    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. 2017]( http://adsabs.harvard.edu/abs/2017arXiv170908574B).
+    - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. http://adsabs.harvard.edu/abs/2017arXiv170908574B].
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S)
 
@@ -94,9 +81,4 @@ WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018a
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-<<<<<<< HEAD
 Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/) and others for help and comments.
-=======
-Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Adam Deller](http://astronomy.swin.edu.au/~adeller/) and others for help and comments.
-
-<img src="https://bersavosh.github.io/files/lrlx_plot.jpg" width="800">
