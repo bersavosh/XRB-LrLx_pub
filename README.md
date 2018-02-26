@@ -14,7 +14,7 @@ All the sources included in this database and plot are tabulated below. Addition
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
 |------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
-|               A0620-00 |      BH |             None |                                Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2017, arXiv, 1711.04330 |
+|               A0620-00 |      BH |             None |                                      Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2018, ApJ, 852, 4 |
 |          XTE J1118+480 |      BH |             None |                                                                        Gallo et al. 2014, MNRAS, 445, 290 |
 |               GX 339-4 |      BH |             None |                                                                      Corbel et al. 2013, MNRAS, 428, 2500 |
 |             H 1743-322 |      BH |             None |                                                                       Coriat et al. 2011, MNRAS, 414, 677 |

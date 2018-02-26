@@ -87,7 +87,7 @@ p36
 tp37
 bsS'Ref'
 p38
-S'Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2017, arXiv, 1711.04330'
+S'Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2018, ApJ, 852, 4'
 p39
 sS'Class'
 p40
