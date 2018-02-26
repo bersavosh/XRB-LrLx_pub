@@ -20,7 +20,7 @@ All the sources included in this database and plot are tabulated below. Addition
 |             H 1743-322 |      BH |             None |                                                                       Coriat et al. 2011, MNRAS, 414, 677 |
 |              V 404 Cyg |      BH |             None |                                                                      Corbel et al. 2008, MNRAS, 389, 1697 |
 |     Swift J1753.5-0127 |      BH |             None | Soleri et al. 2010 MNRAS 406 1471; Rushton et al. 2016 MNRAS, 463, 628, Plotkin et al. 2017, ApJ, 848, 92 |
-|         MAXI J1659-152 |      BH |             None |                                                                      Jonket et al. 2012, MNRAS, 423, 3308 |
+|         MAXI J1659-152 |      BH |             None |                                                                      Jonker et al. 2012, MNRAS, 423, 3308 |
 |          XTE J1752-223 |      BH |             None |                                                                       Ratti et al. 2012, MNRAS, 423, 2656 |
 |                MWC 656 |      BH |             None |                                                                            Ribo et al. 2017, ApJ, 835, 33 |
 |         MAXI J1836-194 |      BH |             None |                                                                     Russell et al. 2015, MNRAS, 450, 1745 |

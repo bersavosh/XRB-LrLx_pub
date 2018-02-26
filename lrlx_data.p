@@ -549,7 +549,7 @@ I00
 g54
 tp200
 bsg38
-S'Jonket et al. 2012, MNRAS, 423, 3308'
+S'Jonker et al. 2012, MNRAS, 423, 3308'
 p201
 sg40
 g41
