@@ -7,7 +7,7 @@ This is a database for (simultaneous) radio and X-ray observation of X-ray binar
 
 The most recent version of this database and plot is reported in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
 
-*Last update: Feb 21, 2018*
+*Last update: Feb 26, 2018*
    
 ## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg).
@@ -81,6 +81,6 @@ WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018a
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/) and others for help and comments.
+Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta) and others for help and comments.
 
 <img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byclass.jpg" width="800">
