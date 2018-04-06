@@ -317,6 +317,7 @@ IGR J16597-3704,AMXP,1.204e+28,2.121e+27,2.121e+27,2.764e+36,1.184e+35,1.184e+35
 MAXI J0911-635,AMXP,4.5e+28,0.0,0.0,2.5e+36,0.0,0.0,Lr,"Tudor et al. 2016, ATel, 8914"
 XTE J0929-314,AMXP,1.314383e+29,0.0,0.0,3.762255e+36,0.0,0.0,None,"Migliari et al. 2011, MNRAS, 415, 2407"
 XTE J0929-314,AMXP,1.130222e+29,0.0,0.0,4.007675e+36,0.0,0.0,None,"Migliari et al. 2011, MNRAS, 415, 2407"
+IGR J17379-3747,AMXP,2e+29,0.0,0.0,1.3e+36,0.0,0.0,None,"van den Eijnden et al. 2018, ATel, 11487; Strohmayer et al. 2018, ATel, 11507"
 SS Cyg,CV,1.4e+26,9.7e+25,3.3e+26,1.36e+32,8.6e+31,2.3e+32,None,"Russell et al. 2016, MNRAS, 460, 3720"
 AE Aqr,CV,6.4e+26,0.0,0.0,5e+30,0.0,0.0,None,"Eracleous et al. 1991, ApJ, 382, 290; Abada-Simon et al. 1993, ApJ, 406, 692"
 AR Sco,CV,9.6196285e+26,0.0,0.0,2.884e+30,0.0,0.0,None,"Marsh et al. 2016, Natur, 537, 374"

@@ -53,6 +53,7 @@ All the sources included in this database and plot are tabulated below. Addition
 |        IGR J16597-3704 |    AMXP |         NGC 6256 |                                                                        Tetarenko et al. 2017, ATel, 10894 |
 |         MAXI J0911-635 |    AMXP |         NGC 2808 |                                                                             Tudor et al. 2016, ATel, 8914 |
 |          XTE J0929-314 |    AMXP |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
+|        IGR J17379-3747 |    AMXP |             None |                             van den Eijnden et al. 2018, ATel, 11487; Strohmayer et al. 2018, ATel, 11507 |
 |                 SS Cyg |      CV |             None |                                                                     Russell et al. 2016, MNRAS, 460, 3720 |
 |                 AE Aqr |      CV |             None |                              Eracleous et al. 1991, ApJ, 382, 290; Abada-Simon et al. 1993, ApJ, 406, 692 |
 |                 AR Sco |      CV |             None |                                                                        Marsh et al. 2016, Natur, 537, 374 |
@@ -71,7 +72,8 @@ Since publication, the following updates have been applied (in chronological ord
     - AR Scorpii added based on [Marsh et al. 2016](http://adsabs.harvard.edu/abs/2016Natur.537..374M). 
     - New data points for "active" and "passive" accretion modes of PSR J1023+0038 addded based on [Bogdanov et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170908574B).
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
-- **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S)
+- **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
+- **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
 
 ## **Correlation lines:**
 WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T), NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script.
