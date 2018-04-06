@@ -85,4 +85,9 @@ This repository is maintained and updated by [Arash Bahramian](https://bersavosh
 
 Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta) and others for help and comments.
 
+### The Lr-LX plot with sources marked/colored by class:
 <img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byclass.jpg" width="800">
+
+### The Lr-LX plot with sources marked/colored by name:
+(it looks horrible, but informative!)
+<img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg" width="800">
