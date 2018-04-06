@@ -89,5 +89,4 @@ Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-
 <img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byclass.jpg" width="800">
 
 ### The Lr-LX plot with sources marked/colored by name:
-(it looks horrible, but informative!)
-<img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg" width="800">
+<img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg" width="1000">
