@@ -3,6 +3,14 @@ Radio vs. X-ray Luminosity plot based on published data
 
 This is a database for (simultaneous) radio and X-ray observation of X-ray binaries and a simple python script to make the LrLx plot.
 
+## Contents:
+   - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
+   - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
+   - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
+   - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
+   - [Authors, contributors & citations](https://github.com/bersavosh/XRB-LrLx_pub#about)
+   - [Plots](https://github.com/bersavosh/XRB-LrLx_pub#plots)
+
 [This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as we notice new publications.
 
 The most recent version of this database and plot is reported in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
@@ -12,6 +20,8 @@ The most recent version of this database and plot is reported in [Tetarenko, A.,
 ## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg).
 
+|                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
+|------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
 |               A0620-00 |      BH |             None |                                      Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2018, ApJ, 852, 4 |
 |          XTE J1118+480 |      BH |             None |                                  Fender et al. 2010, MNRAS, 406, 1425; Gallo et al. 2014, MNRAS, 445, 290 |
 |               GX 339-4 |      BH |             None |                                                                      Corbel et al. 2013, MNRAS, 428, 2500 |
@@ -81,17 +91,23 @@ Since publication, the following updates have been applied (in chronological ord
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
+- **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies.
+
+## **Odd sources:**
+To have a complete database, we have also added available data for Cyg X1 (based on Gallo et al. 2003, MNRAS, 344, 60) and GRS 1915+105 (based on Rushton et al. 2010, A&A, 524, 29). However, given these systems are generally classified as "unusual", we have separated them from the rest and they are not included in the plots. The data on these sources are available in the file [lrlx_odd_srcs.csv](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_odd_srcs.csv). 
+
 
 ## **Correlation lines:**
 WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T), NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script.
   - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
-## About:
+## **About**:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta) and others for help and comments.
+Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta) and others for providing data, help and comments.
 
+## **Plots**:
 ### The Lr-LX plot with sources marked/colored by class:
 <img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byclass.jpg" width="800">
 
