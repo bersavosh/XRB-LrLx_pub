@@ -7,23 +7,30 @@ This is a database for (simultaneous) radio and X-ray observation of X-ray binar
 
 The most recent version of this database and plot is reported in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
 
-*Last update: Feb 26, 2018*
+*Last update: Apr 7, 2018*
    
 ## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg).
 
-|                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
-|------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
 |               A0620-00 |      BH |             None |                                      Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2018, ApJ, 852, 4 |
-|          XTE J1118+480 |      BH |             None |                                                                        Gallo et al. 2014, MNRAS, 445, 290 |
+|          XTE J1118+480 |      BH |             None |                                  Fender et al. 2010, MNRAS, 406, 1425; Gallo et al. 2014, MNRAS, 445, 290 |
 |               GX 339-4 |      BH |             None |                                                                      Corbel et al. 2013, MNRAS, 428, 2500 |
 |             H 1743-322 |      BH |             None |                                                                       Coriat et al. 2011, MNRAS, 414, 677 |
 |              V 404 Cyg |      BH |             None |                                                                      Corbel et al. 2008, MNRAS, 389, 1697 |
 |     Swift J1753.5-0127 |      BH |             None | Soleri et al. 2010 MNRAS 406 1471; Rushton et al. 2016 MNRAS, 463, 628, Plotkin et al. 2017, ApJ, 848, 92 |
 |         MAXI J1659-152 |      BH |             None |                                                                      Jonker et al. 2012, MNRAS, 423, 3308 |
-|          XTE J1752-223 |      BH |             None |                                                                       Ratti et al. 2012, MNRAS, 423, 2656 |
+|          XTE J1752-223 |      BH |             None |                               Ratti et al. 2012, MNRAS, 423, 2656; Brocksopp et al. 2013, MNRAS, 432, 931 |
 |                MWC 656 |      BH |             None |                                                                            Ribo et al. 2017, ApJ, 835, 33 |
 |         MAXI J1836-194 |      BH |             None |                                                                     Russell et al. 2015, MNRAS, 450, 1745 |
+|           GRO J1655-40 |      BH |             None |                           Coriat et al. 2011, IAU Symp 275, 255; Calvelo, D. et al. 2010, MNRAS, 409, 839 |
+|          XTE J1550-564 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
+|          XTE J1720-318 |      BH |             None |                                                                    Brocksopp et al. 2005, MNRAS, 356, 125 |
+|        IGR J17177-3656 |      BH |             None |                                                                         Paizis et al. 2011, ApJ, 738, 183 |
+|           GRS 1758-258 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
+|        IGR J17091-3624 |      BH |             None |                                                                       Rodriguez et al. 2011, A&A, 533, L4 |
+|             GS 1354-64 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
+|             4U 1543-47 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
+|          XTE J1650-500 |      BH |             None |                                                                        Corbel et al. 2004, ApJ, 617, 1272 |
 |               M62-VLA1 | LrLx_BH |              M62 |                                             Chomiuk et al. 2013, ApJ, 777, 69; Bahramian et al., in prep. |
 |             M22-VLA1,2 | LrLx_BH |              M22 |                                                                       Strader et al. 2012, Natur, 490, 71 |
 |               47Tuc X9 | LrLx_BH |            47Tuc |                       Miller-Jones et al. 2015, MNRAS, 453, 3918; Bahramian et al. 2017, MNRAS, 467, 2199 |

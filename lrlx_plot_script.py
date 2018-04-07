@@ -101,7 +101,7 @@ plt.loglog(fit_x,pow(10,(29.65+0.15-(0.61*36.32)))*pow(fit_x,0.61),'k--',zorder=
 plt.xlabel(r'1-10 keV X-ray luminosity (erg s$^{-1}$)', fontsize=16)
 plt.xlim(1.01e29, 1e39)
 plt.ylabel(r'5-GHz radio luminosity (erg s$^{-1}$)', fontsize=16)
-plt.ylim(1e25, 2e31)
+plt.ylim(1e25, 3e31)
 plt.tick_params('both', length=9, width=1, which='major')
 plt.tick_params('both', length=5, width=1, which='minor')
 plt.tick_params(axis='both', which='major', labelsize=16)
