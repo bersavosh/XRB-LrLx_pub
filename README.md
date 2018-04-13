@@ -1,19 +1,22 @@
 # Plot of disk-jet correlation plane in X-ray binaries
-Radio vs. X-ray Luminosity plot based on published data
 
-This is a database for (simultaneous) radio and X-ray observation of X-ray binaries and a simple python script to make the LrLx plot.
+Data base of Radio and X-ray Luminosity of accreting X-ray binaries.
+
+This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
 
 ## Contents:
    - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
    - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
    - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
    - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
-   - [Authors, contributors & citations](https://github.com/bersavosh/XRB-LrLx_pub#about)
+   - [Author, contributors & citations](https://github.com/bersavosh/XRB-LrLx_pub#about)
    - [Plots](https://github.com/bersavosh/XRB-LrLx_pub#plots)
 
-[This plot](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot.pdf) is based on [Tetarenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), [Bahramian et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.467.2199B) and references therein ([see below](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/README.md#references)). The database and the plot get updated as we notice new publications.
+The radio-X-ray correlation in accretion neutron stars and black holes has been discussed in detail in the literature.  [Fender et al. XXXX]() showed that XXXXX
 
-The most recent version of this database and plot is reported in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
+Here, we have compiled a large collection of these measurements from the literature. For most of these measurements, X-ray and radio observations have been simultaneous or quasi-simultaneous. We also actively add new measurements as we notice new publications. 
+
+The most recent version of this database and plot is used in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
 
 *Last update: Apr 7, 2018*
    
