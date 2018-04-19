@@ -4,21 +4,25 @@ Data base of Radio and X-ray Luminosity of accreting X-ray binaries.
 
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
 
+*Last update: Apr 7, 2018*
+
 ## Contents:
+   - [Description](https://github.com/bersavosh/XRB-LrLx_pub#description)
    - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
    - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
-   - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
-   - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
+   - [Warnings and cautions]
+      - [Sampling issues](https://github.com/bersavosh/XRB-LrLx_pub#sampling-issues)
+      - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
+      - [tMSPs](https://github.com/bersavosh/XRB-LrLx_pub#tmsps)
+      - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
+      - [Accretion state]
    - [Author, contributors & citations](https://github.com/bersavosh/XRB-LrLx_pub#about)
    - [Plots](https://github.com/bersavosh/XRB-LrLx_pub#plots)
 
-The radio-X-ray correlation in accretion neutron stars and black holes has been discussed in detail in the literature.  [Fender et al. XXXX]() showed that XXXXX
+## Description:
+The radio-X-ray correlation in accretion neutron stars and black holes has been discussed in detail in the literature. BH X-ray binaries (XRBs) show compact partially self-absorbed jet emission in quiescence and in the hard state during outbursts, making them brighter in radio compared to NS LMXBs with similar X-ray luminosities (Fender,Gallo & Jonker 2003; Gallo, Fender & Pooley 2003; Maccarone 2005, Migliari & Fender 2006). Since, there have been numerous efforts at further exploring and understanding this correlation. Numerous sources (both known and newly identified) have been observed in radio and X-rays. Here, we have compiled a collection of these measurements from the literature and we actively add new measurements as we notice new publications. 
 
-Here, we have compiled a large collection of these measurements from the literature. For most of these measurements, X-ray and radio observations have been simultaneous or quasi-simultaneous. We also actively add new measurements as we notice new publications. 
-
-The most recent version of this database and plot is used in [Tetarenko, A., et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T).
-
-*Last update: Apr 7, 2018*
+Many of these measurements have been done/reported in different radio and X-ray bands. To allow comparison, we convert all of these measurements to 5 GHz (in radio) and 1-10 keV (in X-rays). For these conversions, we assume a flat radio spectrum in radio and use the best known photon index (assuming a power-law model) in X-rays.
    
 ## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg).
@@ -96,21 +100,34 @@ Since publication, the following updates have been applied (in chronological ord
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
 - **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies.
 
-## **Odd sources:**
+## Warnings and cautions:
+
+### Sampling issues:
+**Simultaneity** - For most of these measurements, X-ray and radio observations have been simultaneous or quasi-simultaneous. However, we warn the user to check the original reference as some of these measurements might have been far apart in time.
+
+**Bands, sensitivity, number of observations** - The data quality, depth of observations, number of observations per source, observatories (and hence the observation bands) vary strongly in this catalog. Some sources like XTE J1118+480 or Swift J1753.5-0127 have been covered over a broad range of luminosities and are also observed numerous times, while many other sources are not observed more than a handful of times.
+
+**Distance** - Another issue in sampling is large distances (combined with telescope sensitivity limits), which hampers study of many of these sources at lower luminosities. This is a dominant factor as to why there are very few data points at Lr < 1e28 erg/s and Lx < 1e34 erg/s. It is also important to note that many of these distance measurements are extremely uncertain.
+
+**Short-timescale variability** - It is important to note that almost all of the sources in this catalog show short-timescale variability. This can impcat observations and sampling, specially if observations are short. For example, the data points included for the CVs are specifically chosen to show these sources at their flare peak. Or, the three data points for PSR J1023+0038 show this source show it in low and high modes in faint accretion state and also the average for this state.
+
+### Odd sources:
 To have a complete database, we have also added available data for Cyg X1 (based on Gallo et al. 2003, MNRAS, 344, 60) and GRS 1915+105 (based on Rushton et al. 2010, A&A, 524, 29). However, given these systems are generally classified as "unusual", we have separated them from the rest and they are not included in the plots. The data on these sources are available in the file [lrlx_odd_srcs.csv](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_odd_srcs.csv). 
 
+### tMSPs:
+Transitional millisecond pulsars are a relatively new group of sources on this plot. There are still only a hanful of confirmed tMSPs identified and thus their behavior (on the Lr-Lx plane) is not fully explored. A recent study by [Bogdanov et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170908574B) indicates that in the faint accretion state, PSR J1023+0038 shows a strong anti-correlation between radio and X-ray luminosity. Based on the anti-correlation, it is also suggested that the radio emission might not be (entirely) from a self-absorbed jet. Thus, it is possible that comparing their radio and X-ray emission to other systems on this plot might not be appropriate.
 
-## **Correlation lines:**
+### Correlation lines:
 WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T), NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script.
   - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
-## **About**:
+## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
 Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta) and others for providing data, help and comments.
 
-## **Plots**:
+## Plots:
 ### The Lr-LX plot with sources marked/colored by class:
 <img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byclass.jpg" width="800">
 
