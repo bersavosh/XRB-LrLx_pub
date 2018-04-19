@@ -10,12 +10,11 @@ This is a database for radio and X-ray observation of X-ray binaries based on pu
    - [Description](https://github.com/bersavosh/XRB-LrLx_pub#description)
    - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
    - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
-   - [Warnings and cautions]
+   - [Warnings and cautions](https://github.com/bersavosh/XRB-LrLx_pub#Warnings-and-cautions)
       - [Sampling issues](https://github.com/bersavosh/XRB-LrLx_pub#sampling-issues)
       - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
       - [tMSPs](https://github.com/bersavosh/XRB-LrLx_pub#tmsps)
       - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
-      - [Accretion state]
    - [Author, contributors & citations](https://github.com/bersavosh/XRB-LrLx_pub#about)
    - [Plots](https://github.com/bersavosh/XRB-LrLx_pub#plots)
 
