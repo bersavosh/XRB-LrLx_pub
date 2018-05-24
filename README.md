@@ -32,7 +32,16 @@ Additionally, there are sources which are considered "unusual" for their accreti
 There is also a simple python script available ([lrlx_plot_script.py](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_script.py)) which utilizes [Matplotlib](https://matplotlib.org/) to produces [this plot](https://github.com/bersavosh/XRB-LrLx_pub#the-lr-lx-plot-with-sources-markedcolored-by-class).
 
 ## List of sources:
-All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg).
+All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://github.com/bersavosh/XRB-LrLx_pub#the-lr-lx-plot-with-sources-markedcolored-by-name).
+
+**System types**:
+   - BH: Black hole XRBs (both confirmed and candidates)
+   - LrLx_BH: Candidate black hole XRB systems which are classified solely based on radio/X-ray correlation
+   - NS: Neutros star XRBs (confirmed through type 1 X-ray bursts or pulsations)
+   - LrLx_NS: Candidate neutron star XRB systems which are identified solely based on radio/X-ray correlation
+   - tMSPs: Transitional Millisecond Pulsars (observations during accreting states - as opposed to pulsar state)
+   - AMXPs: Accreting millisecond X-ray pulsars
+   - CVs: Cataclysmic variables (observations at or near flare peak)
 
 |                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
 |------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
