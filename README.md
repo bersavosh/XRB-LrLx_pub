@@ -106,6 +106,7 @@ Since publication, the following updates have been applied (in chronological ord
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
 - **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies ([Motta et al., in prep.]()).
+- **Release of Version 0.1 (May 2018)** 
 
 ## Warnings and cautions:
 
@@ -130,6 +131,31 @@ WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018a
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
 ## About:
+If you use this package, we request that you cite the following record:
+
+[Arash Bahramian et al (2018). Radio/X-ray correlation database for X-ray binaries (Version v0.1) [Data set]. Zenodo.](http://doi.org/10.5281/zenodo.1252035)
+
+Bibtex:
+```
+@misc{arash_bahramian_2018_1252036,
+  author       = {Arash Bahramian and
+                  James Miller-Jones and
+                  Jay Strader and
+                  Alexandra Tetarenko and
+                  Richard Plotkin and
+                  Anthony Rushton and
+                  Vlad Tudor and
+                  Sara Motta and
+                  Laura Shishkovsky},
+  title        = {{Radio/X-ray correlation database for X-ray 
+                   binaries}},
+  month        = may,
+  year         = 2018,
+  doi          = {10.5281/zenodo.1252036},
+  url          = {https://doi.org/10.5281/zenodo.1252036}
+}
+```
+
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
 Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Laura Shishkovsky](https://astro.natsci.msu.edu/people/laura-shishkovsky/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta).
