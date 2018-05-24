@@ -90,7 +90,7 @@ All the sources included in this database and plot are tabulated below. Addition
 |                 AR Sco |      CV |             None |                                                                        Marsh et al. 2016, Natur, 537, 374 |
 
 ## List of updates:
-Since publication, the following updates have been applied (in chronological order):
+Since publication of the version published in [TetarBenko, B., et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...825...10T), the following updates have been applied (in chronological order):
 - **MWC 656** updated based on [Ribo et al. 2017](http://adsabs.harvard.edu/abs/2017ApJ...835L..33R). Previous measurements (X-rays from [Munar-Adrover et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...786L..11M) and radio from [Dzib et al. 2015](http://adsabs.harvard.edu/abs/2015A&amp;A...580L...6D) were non-simultaneous).
 - **EXO 1745-248** added based on [Tetarenko, A., et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.460..345T).
 - **M62 VLA1** updated based on Bahramian et al. in prep.
@@ -111,7 +111,7 @@ Since publication, the following updates have been applied (in chronological ord
 ## Warnings and cautions:
 
 ### Sampling issues:
-**Simultaneity** - For most of these measurements, X-ray and radio observations have been simultaneous or quasi-simultaneous. However, we warn the user to check the original reference as some of these measurements might have been far apart in time.
+**Simultaneity** - For most of these measurements, X-ray and radio observations have been simultaneous or quasi-simultaneous (within 1-2 days). However, we warn the user to check the original reference as some of these measurements might have been far apart in time.
 
 **Bands, sensitivity, number of observations** - The data quality, depth of observations, number of observations per source, observatories (and hence the observation bands) vary strongly in this catalog. Some sources like XTE J1118+480 or Swift J1753.5-0127 have been covered over a broad range of luminosities and are also observed numerous times, while many other sources are not observed more than a handful of times.
 
@@ -133,7 +133,7 @@ WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018a
 ## About:
 If you use this package, we request that you cite the following record:
 
-[Arash Bahramian et al (2018). Radio/X-ray correlation database for X-ray binaries (Version v0.1) [Data set]. Zenodo.](http://doi.org/10.5281/zenodo.1252035)
+[Arash Bahramian et al (2018). Radio/X-ray correlation database for X-ray binaries](http://doi.org/10.5281/zenodo.1252035)
 
 Bibtex:
 ```
