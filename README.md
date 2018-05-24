@@ -132,7 +132,7 @@ WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018a
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta).
+Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Laura Shishkovsky](https://astro.natsci.msu.edu/people/laura-shishkovsky/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta).
 
 ## Plots:
 ### The Lr-LX plot with sources marked/colored by class:
