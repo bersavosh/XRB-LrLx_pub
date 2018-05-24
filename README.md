@@ -36,9 +36,9 @@ All the sources included in this database and plot are tabulated below. Addition
 
 **System types**:
    - BH: Black hole XRBs (both confirmed and candidates)
-   - LrLx_BH: Candidate black hole XRB systems which are classified solely based on radio/X-ray correlation
+   - LrLx_BH: Candidate black hole XRB systems which are classified based on radio/X-ray correlation 
    - NS: Neutros star XRBs (confirmed through type 1 X-ray bursts or pulsations)
-   - LrLx_NS: Candidate neutron star XRB systems which are identified solely based on radio/X-ray correlation
+   - LrLx_NS: Candidate neutron star XRB systems which are classified based on radio/X-ray correlation
    - tMSPs: Transitional Millisecond Pulsars (observations during accreting states - as opposed to pulsar state)
    - AMXPs: Accreting millisecond X-ray pulsars
    - CVs: Cataclysmic variables (observations at or near flare peak)
