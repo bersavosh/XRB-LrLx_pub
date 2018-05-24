@@ -7,7 +7,8 @@ This is a database for radio and X-ray observation of X-ray binaries based on pu
 *Last update: Apr 7, 2018*
 
 ## Contents:
-   - [Description](https://github.com/bersavosh/XRB-LrLx_pub#description)
+   - [Introduction](https://github.com/bersavosh/XRB-LrLx_pub#introduction)
+   - [Package Description](https://github.com/bersavosh/XRB-LrLx_pub#Package-Description)
    - [List of sources](https://github.com/bersavosh/XRB-LrLx_pub#list-of-sources)
    - [List of updates](https://github.com/bersavosh/XRB-LrLx_pub#list-of-updates)
    - [Warnings and cautions](https://github.com/bersavosh/XRB-LrLx_pub#warnings-and-cautions)
@@ -18,11 +19,18 @@ This is a database for radio and X-ray observation of X-ray binaries based on pu
    - [Author, contributors & citations](https://github.com/bersavosh/XRB-LrLx_pub#about)
    - [Plots](https://github.com/bersavosh/XRB-LrLx_pub#plots)
 
-## Description:
+## Introduction:
 The radio-X-ray correlation in accretion neutron stars and black holes has been discussed in detail in the literature. BH X-ray binaries (XRBs) show compact partially self-absorbed jet emission in quiescence and in the hard state during outbursts, making them brighter in radio compared to NS LMXBs with similar X-ray luminosities (Fender,Gallo & Jonker 2003; Gallo, Fender & Pooley 2003; Maccarone 2005, Migliari & Fender 2006). Since, there have been numerous efforts at further exploring and understanding this correlation. Numerous sources (both known and newly identified) have been observed in radio and X-rays. Here, we have compiled a collection of these measurements from the literature and we actively add new measurements as we notice new publications. 
 
 Many of these measurements have been done/reported in different radio and X-ray bands. To allow comparison, we convert all of these measurements to 5 GHz (in radio) and 1-10 keV (in X-rays). For these conversions, we assume a flat radio spectrum in radio and use the best known photon index (assuming a power-law model) in X-rays.
-   
+
+## Package Description:
+This package contains a catalog of radio and X-ray observations of Galactic X-ray binaries. The catalog is available in form of a `csv` file ([lrlx_data.csv](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_data.csv)) and a python [pickle](https://docs.python.org/3/library/pickle.html) file ([lrlx_data.p](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_data.p)). The pickle contains each source as an object with defined attributes such as name, class (BH-XRB, NS-XRB, tMSP, CV, etc.), reference, and measurements and uncertainties as arrays.
+
+Additionally, there are sources which are considered "unusual" for their accretion behavior (see [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)). For completeness, we have included these sources in a different file ([lrlx_odd_srcs.csv](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_odd_srcs.csv)).
+
+There is also a simple python script available ([lrlx_plot_script.py](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/lrlx_plot_script.py)) which utilizes [Matplotlib](https://matplotlib.org/) to produces [this plot](https://github.com/bersavosh/XRB-LrLx_pub#the-lr-lx-plot-with-sources-markedcolored-by-class).
+
 ## List of sources:
 All the sources included in this database and plot are tabulated below. Additionally, a version of the plot with all sources labeled is available [here](https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot_byname.jpg).
 
@@ -97,7 +105,7 @@ Since publication, the following updates have been applied (in chronological ord
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
-- **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies.
+- **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies ([Motta et al., in prep.]()).
 
 ## Warnings and cautions:
 
@@ -124,7 +132,7 @@ WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018a
 ## About:
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Thanks to [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta) and others for providing data, help and comments.
+Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta).
 
 ## Plots:
 ### The Lr-LX plot with sources marked/colored by class:
