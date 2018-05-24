@@ -114,7 +114,7 @@ Since publication of the version published in [TetarBenko, B., et al. 2016](http
     - Data for A0620-00	updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
-- **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies ([Motta et al., in prep.]()).
+- **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies (Motta et al., in prep.).
 - **Release of Version 0.1 (May 2018)** 
 
 ## Warnings and cautions:
@@ -135,7 +135,7 @@ To have a complete database, we have also added available data for Cyg X1 (based
 Transitional millisecond pulsars are a relatively new group of sources on this plot. There are still only a hanful of confirmed tMSPs identified and thus their behavior (on the Lr-Lx plane) is not fully explored. A recent study by [Bogdanov et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170908574B) indicates that in the faint accretion state, PSR J1023+0038 shows a strong anti-correlation between radio and X-ray luminosity. Based on the anti-correlation, it is also suggested that the radio emission might not be (entirely) from a self-absorbed jet. Thus, it is possible that comparing their radio and X-ray emission to other systems on this plot might not be appropriate.
 
 ### Correlation lines:
-WARNING: As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T), NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script.
+As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180105778T) and [Gallo et al. 2018](http://adsabs.harvard.edu/doi/10.1093/mnrasl/sly083) NS XRBs and AMXPs do not seem to follow the previously suggested correlation lines. Thus, these correlation lines are not shown in the plot. However these are still included as comments in the plotting script. 
   - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
   - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
