@@ -1,6 +1,6 @@
-# Plot of disk-jet correlation plane in X-ray binaries
+# Radio/X-ray correlation database for X-ray binaries
 
-Data base of Radio and X-ray Luminosity of accreting X-ray binaries.
+*[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)*
 
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
 
@@ -20,7 +20,7 @@ This is a database for radio and X-ray observation of X-ray binaries based on pu
    - [Plots](https://github.com/bersavosh/XRB-LrLx_pub#plots)
 
 ## Introduction:
-The radio-X-ray correlation in accretion neutron stars and black holes has been discussed in detail in the literature. BH X-ray binaries (XRBs) show compact partially self-absorbed jet emission in quiescence and in the hard state during outbursts, making them brighter in radio compared to NS LMXBs with similar X-ray luminosities (Fender,Gallo & Jonker 2003; Gallo, Fender & Pooley 2003; Maccarone 2005, Migliari & Fender 2006). Since, there have been numerous efforts at further exploring and understanding this correlation. Numerous sources (both known and newly identified) have been observed in radio and X-rays. Here, we have compiled a collection of these measurements from the literature and we actively add new measurements as we notice new publications. 
+The radio-X-ray correlation in accreting neutron stars and black holes has been discussed in detail in the literature. BH X-ray binaries (XRBs) show compact partially self-absorbed jet emission in quiescence and in the hard state during outbursts, making them brighter in radio compared to NS LMXBs with similar X-ray luminosities (Fender,Gallo & Jonker 2003; Gallo, Fender & Pooley 2003; Maccarone 2005, Migliari & Fender 2006). Since, there have been numerous efforts at further exploring and understanding this correlation. Numerous sources (both known and newly identified) have been observed in radio and X-rays. Here, we have compiled a collection of these measurements from the literature and we actively add new measurements as we notice new publications. 
 
 Many of these measurements have been done/reported in different radio and X-ray bands. To allow comparison, we convert all of these measurements to 5 GHz (in radio) and 1-10 keV (in X-rays). For these conversions, we assume a flat radio spectrum in radio and use the best known photon index (assuming a power-law model) in X-rays.
 
