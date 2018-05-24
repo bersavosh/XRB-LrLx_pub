@@ -4,7 +4,7 @@ Data base of Radio and X-ray Luminosity of accreting X-ray binaries.
 
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
 
-*Last update: May 24, 2018*
+*Last update: May 24, 2018 (Version 0.1)*
 
 ## Contents:
    - [Introduction](https://github.com/bersavosh/XRB-LrLx_pub#introduction)
