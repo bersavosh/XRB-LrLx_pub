@@ -1,5 +1,8 @@
 # Radio/X-ray correlation database for X-ray binaries
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1252036.svg)](https://doi.org/10.5281/zenodo.1252036)
+
+
 *[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)*
 
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
