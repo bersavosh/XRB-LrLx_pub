@@ -23,7 +23,7 @@ font = {'family' : 'serif'}
 rc('font', **font)
 
 # Loading the pre-compiled catalog in pickle format
-src_list = pickle.load(open('lrlx_data.p', 'rb'))
+src_list = pickle.load(open('lrlx_data.p', 'rb'), encoding='latin1')
 
 
 plt.figure(figsize=(8,6))
@@ -105,7 +105,7 @@ plt.ylim(1e25, 3e31)
 plt.tick_params('both', length=9, width=1, which='major')
 plt.tick_params('both', length=5, width=1, which='minor')
 plt.tick_params(axis='both', which='major', labelsize=16)
-plt.tick_params(axis='both', which='both',direction='in',right='on',top='on')
+plt.tick_params(axis='both', which='both',direction='in',right=True,top=True)
 
 # Saving
 plt.savefig('./lrlx_plot.pdf', bbox_inches='tight')
