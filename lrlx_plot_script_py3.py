@@ -13,6 +13,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pickle
 
+# For reading from the CSV file:
+from astropy.io import ascii
+
 # BW print-friendly color palette adopted from CubeHelix by Matt Davis
 colorset = ['#000000', '#00270C', '#00443C', '#005083', '#034BCA', '#483CFC', '#9C2BFF', '#EB24F4', '#FF2DC2', '#FF4986', '#FF7356', '#FFA443', '#EBD155', '#D3F187', '#D7FFC8', '#FFFFFF']
 
@@ -24,6 +27,8 @@ rc('font', **font)
 
 # Loading the pre-compiled catalog in pickle format
 src_list = pickle.load(open('lrlx_data.p', 'rb'), encoding='latin1')
+# Reading from CSV:
+#src_list = ascii.read('lrlx_data.csv')
 
 
 plt.figure(figsize=(8,6))
@@ -47,9 +52,16 @@ for i in src_list:
         UIs,=plt.loglog(i['Lx'],i['Lr'],'p',ms=8, c=colorset[8],mec='k',mew=0.2,zorder=8,label='Unknown')
 
     # Plotting errorbars (if available):
+    # If reading the pickle file:
     if len(i['Lx_er']) > 0 and len(i['Lr_er']) > 0:
         plt.errorbar(i['Lx'],i['Lr'],yerr=i['Lr_er'],xerr=i['Lx_er'], fmt='.',ms=0,ecolor='k',zorder=2,elinewidth=0.8)
-    
+    # If reading a CSV file (comment the lines above and uncomment the ones below):
+    #if i['Lx_ler'] > 0 and i['Lr_ler'] > 0:
+    #    plt.errorbar(i['Lx'],i['Lr'],yerr=[[i['Lr_ler']],[i['Lr_uer']]],
+    #                 xerr=[[i['Lx_ler']],[i['Lx_uer']]], fmt='.',ms=0,ecolor='k',zorder=2,elinewidth=0.8)
+
+
+
     # Upper limits:
     # Given the clutter in the plot, to show upper limits clearer, I make upper limit data points hallow
     if i['uplim'] != None:
