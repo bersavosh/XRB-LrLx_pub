@@ -97,6 +97,7 @@ All the sources included in this database and plot are tabulated below. Addition
 |         MAXI J0911-635 |    AMXP |         NGC 2808 |                                                                             Tudor et al. 2016, ATel, 8914 |
 |          XTE J0929-314 |    AMXP |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
 |        IGR J17379-3747 |    AMXP |             None |                             van den Eijnden et al. 2018, ATel, 11487; Strohmayer et al. 2018, ATel, 11507 |
+|        IGR J17591-2342 |    AMXP |             None |                              Russell et al. 2018, ApJL, 869, 16; Gusinskaia et al. 2020, MNRAS, 492, 1091 |
 |                 SS Cyg |      CV |             None |                                                                     Russell et al. 2016, MNRAS, 460, 3720 |
 |                 AE Aqr |      CV |             None |                              Eracleous et al. 1991, ApJ, 382, 290; Abada-Simon et al. 1993, ApJ, 406, 692 |
 |                 AR Sco |      CV |             None |                                                                        Marsh et al. 2016, Natur, 537, 374 |
@@ -119,6 +120,11 @@ Since publication of the version published in [TetarBenko, B., et al. 2016](http
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
 - **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies (Motta et al., in prep.).
 - **Release of Version 0.1 (May 2018)** 
+- **2020 update 1**:
+   - A radio uppler limit data point for IGR J17511-3057 from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) was included here with a numerical error. The upper limit is 8e+27, and not 8e+28.
+   - One omitted data point for IGR J00291+5934 ([Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T)) is now included.
+   - New source IGR J17591-2342 added based on [Russell et al. 2018](https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..16R/abstract) and [Gusinskaia et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1091G/abstract).
+   - Thanks to Nina Gusinskaia for poiting out these issues and providing the data.
 
 ## Warnings and cautions:
 
@@ -170,7 +176,7 @@ Bibtex:
 
 This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
 
-Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Laura Shishkovsky](https://astro.natsci.msu.edu/people/laura-shishkovsky/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta).
+Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Laura Shishkovsky](https://astro.natsci.msu.edu/people/laura-shishkovsky/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta), [Nina Gusinskaia](https://www.astro.utoronto.ca/people/post-docs/name/nina-gusinskaia/).
 
 ## Plots:
 ### The Lr-LX plot with sources marked/colored by class:
