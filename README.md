@@ -121,7 +121,7 @@ Since publication of the version published in [Tetarenko, B., et al. 2016](http:
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
 - **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies (Motta et al., in prep.).
-- **Release of Version 0.1 (May 2018)** 
+- **Release of Version 0.1 (May 2018)**
 - **2020 update**:
   - A radio uppler limit data point for IGR J17511-3057 from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) was included here with a numerical error. The upper limit is 8e+27, and not 8e+28.
   - One omitted data point for IGR J00291+5934 ([Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T)) is now included.
@@ -129,7 +129,7 @@ Since publication of the version published in [Tetarenko, B., et al. 2016](http:
   - Thanks to Nina Gusinskaia for poiting out these issues and providing the data.
 - **2022 update 1**
   - Data re-organized into multiple `csv` files based on source classes to facilitate contributions and updates.
-  - Plotting script updated to incorporate better practices and switch dependence from `astropy` tables to `pandas` dataframes.
+  - Plotting script updated to incorporate better practices and switch dependencies from pickles and `astropy` tables to `pandas` dataframes.
 
 ## Warnings and cautions
 
@@ -165,7 +165,8 @@ If you use this package, we request that you cite the following record:
 [Arash Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries](http://doi.org/10.5281/zenodo.1252035)
 
 Bibtex:
-```
+
+```bibtex
 @misc{arash_bahramian_2018_1252036,
   author       = {Arash Bahramian and
                   James Miller-Jones and
@@ -185,8 +186,10 @@ Bibtex:
 }
 ```
 
-This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. 
+This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions.
 
 Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Laura Shishkovsky](https://astro.natsci.msu.edu/people/laura-shishkovsky/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta), [Nina Gusinskaia](https://www.astro.utoronto.ca/people/post-docs/name/nina-gusinskaia/).
 
 ## Plot
+
+<img src="https://raw.githubusercontent.com/bersavosh/XRB-LrLx_pub/master/lrlx_plot.jpg" width="800">

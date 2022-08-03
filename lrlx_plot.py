@@ -217,4 +217,4 @@ DATA = data_reader()
 CLASSES = ['BH', 'candidateBH', 'NS', 'candidateNS', 'AMXP', 'tMSP', 'WD']   
 FIG = plt.figure(figsize=(8,6))
 plotter(DATA,CLASSES,fig=FIG, uplims=True);
-FIG.savefig('lrlx_plot.pdf', bbox_inches='tight')
+FIG.savefig('lrlx_plot.jpg', dpi=300, bbox_inches='tight')
