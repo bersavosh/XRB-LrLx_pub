@@ -1,12 +1,10 @@
 # Radio/X-ray correlation database for X-ray binaries
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1252036.svg)](https://doi.org/10.5281/zenodo.1252036)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6956521.svg)](https://zenodo.org/record/6956521)
 
-*[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)*
+*[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)* - Last update: Aug 3, 2022 (Version 0.2)
 
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
-
-Last update: Aug 3, 2022 (Version 0.2)
 
 ## Contents
 
@@ -162,27 +160,21 @@ As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv18010
 
 If you use this package, we request that you cite the following record:
 
-[Arash Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries](http://doi.org/10.5281/zenodo.1252035)
+[Arash Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries](https://zenodo.org/record/6956521)
 
 Bibtex:
 
 ```bibtex
-@misc{arash_bahramian_2018_1252036,
+@software{arash_bahramian_2022_6956521,
   author       = {Arash Bahramian and
-                  James Miller-Jones and
-                  Jay Strader and
-                  Alexandra Tetarenko and
-                  Richard Plotkin and
-                  Anthony Rushton and
-                  Vlad Tudor and
-                  Sara Motta and
-                  Laura Shishkovsky},
-  title        = {{Radio/X-ray correlation database for X-ray 
-                   binaries}},
-  month        = may,
-  year         = 2018,
-  doi          = {10.5281/zenodo.1252036},
-  url          = {https://doi.org/10.5281/zenodo.1252036}
+                  Anthony Rushton},
+  title        = {bersavosh/XRB-LrLx\_pub: 2022 script update},
+  month        = aug,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {v0.2},
+  doi          = {10.5281/zenodo.6956521},
+  url          = {https://doi.org/10.5281/zenodo.6956521}
 }
 ```
 
