@@ -1,0 +1,4 @@
+Name,Class,Lr,Lr_ler,Lr_uer,Lx,Lx_ler,Lx_uer,uplim,Ref
+SS Cyg,WD,1.4e+26,9.7e+25,3.3e+26,1.36e+32,8.6e+31,2.3e+32,None,"Russell et al. 2016, MNRAS, 460, 3720"
+AE Aqr,WD,6.4e+26,0.0,0.0,5e+30,0.0,0.0,None,"Eracleous et al. 1991, ApJ, 382, 290; Abada-Simon et al. 1993, ApJ, 406, 692"
+AR Sco,WD,9.6196285e+26,0.0,0.0,2.884e+30,0.0,0.0,None,"Marsh et al. 2016, Natur, 537, 374"

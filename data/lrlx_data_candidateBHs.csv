@@ -1,0 +1,6 @@
+Name,Class,Lr,Lr_ler,Lr_uer,Lx,Lx_ler,Lx_uer,uplim,Ref
+M62-VLA1,candidateBH,5.51e+27,0.0,0.0,5.59e+32,0.0,0.0,None,"Chomiuk et al. 2013, ApJ, 777, 69; Bahramian et al., in prep."
+"M22-VLA1,2",candidateBH,3.45e+27,0.0,0.0,4.651e+30,0.0,0.0,Lx,"Strader et al. 2012, Natur, 490, 71"
+47Tuc X9,candidateBH,3.39e+27,8.84e+26,8.84e+26,3.61e+33,3e+31,3e+31,None,"Miller-Jones et al. 2015, MNRAS, 453, 3918; Bahramian et al. 2017, MNRAS, 467, 2199"
+VLA J2130+12,candidateBH,1.2e+28,0.0,0.0,3.7e+29,0.0,0.0,Lx,"B. Tetarenko et al. 2016, ApJ, 825, 10"
+M10-VLA1,candidateBH,1.88e+27,6.3e+26,6.3e+26,5.5e+30,3.3e+30,8.5e+30,None,"Shishkovsky et al. 2018, ApJ., in press."

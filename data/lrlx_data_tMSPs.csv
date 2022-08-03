@@ -1,0 +1,6 @@
+Name,Class,Lr,Lr_ler,Lr_uer,Lx,Lx_ler,Lx_uer,uplim,Ref
+XSS J12270-4859,tMSP,4.1e+27,0.0,0.0,7.38e+33,0.0,0.0,None,"Hill et al. 2011, MNRAS, 415, 235"
+IGR J18245-2452,tMSP,1.12e+29,0.0,0.0,1.35e+36,0.0,0.0,None,"Papitto et al. 2013, Natur, 501, 517"
+PSR J1023+0038,tMSP,9.72e+26,2.5e+26,1.1e+27,1.9e+33,4.58e+32,2.4e+32,None,"Deller et al. 2015, ApJ, 809, 13; Bogdanov et al. 2017, arXiv, 1711.04791"
+PSR J1023+0038,tMSP,6.3e+26,0.0,0.0,2.4e+33,0.0,0.0,None,"Deller et al. 2015, ApJ, 809, 13; Bogdanov et al. 2017, arXiv, 1711.04791"
+PSR J1023+0038,tMSP,1.9e+27,0.0,0.0,4e+32,0.0,0.0,None,"Deller et al. 2015, ApJ, 809, 13; Bogdanov et al. 2017, arXiv, 1711.04791"
