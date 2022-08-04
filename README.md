@@ -65,11 +65,11 @@ All the sources included in this database and plot are tabulated below.
 |             GS 1354-64 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
 |             4U 1543-47 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
 |          XTE J1650-500 |      BH |             None |                                                                        Corbel et al. 2004, ApJ, 617, 1272 |
-|               M62-VLA1 | candidateBH |              M62 |                                             Chomiuk et al. 2013, ApJ, 777, 69; Bahramian et al., in prep. |
-|             M22-VLA1,2 | candidateBH |              M22 |                                                                       Strader et al. 2012, Natur, 490, 71 |
-|               47Tuc X9 | candidateBH |            47Tuc |                       Miller-Jones et al. 2015, MNRAS, 453, 3918; Bahramian et al. 2017, MNRAS, 467, 2199 |
-|           VLA J2130+12 | candidateBH |             None |                                                                    B. Tetarenko et al. 2016, ApJ, 825, 10 |
-|               M10-VLA1 | candidateBH |              M10 |                                                                  Shishkovsky et al. 2018, ApJ., in press. |
+|               M62-VLA1 | candidateBH |          M62 |                                             Chomiuk et al. 2013, ApJ, 777, 69; Bahramian et al., in prep. |
+|             M22-VLA1,2 | candidateBH |          M22 |                                                                       Strader et al. 2012, Natur, 490, 71 |
+|               47Tuc X9 | candidateBH |        47Tuc |                       Miller-Jones et al. 2015, MNRAS, 453, 3918; Bahramian et al. 2017, MNRAS, 467, 2199 |
+|           VLA J2130+12 | candidateBH |         None |                                                                    B. Tetarenko et al. 2016, ApJ, 825, 10 |
+|               M10-VLA1 | candidateBH |          M10 |                                                                  Shishkovsky et al. 2018, ApJ., in press. |
 |        XSS J12270-4859 |    tMSP |             None |                                                                         Hill et al. 2011, MNRAS, 415, 235 |
 |        IGR J18245-2452 |    tMSP |              M28 |                                                                      Papitto et al. 2013, Natur, 501, 517 |
 |         PSR J1023+0038 |    tMSP |             None |                                 Deller et al. 2015, ApJ, 809, 13; Bogdanov et al. 2017, arXiv, 1711.04791 |
@@ -84,8 +84,8 @@ All the sources included in this database and plot are tabulated below.
 |                Aql X-1 |      NS |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
 |             4U 1728-34 |      NS |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
 |            4U 0614+091 |      NS |             None |                                                                    Migliari et al. 2011, MNRAS, 415, 2407 |
-| Swift J175233.9-290952 | candidateNS |             None |                                                                        Tetarenko et al. 2017, ATel, 10422 |
-|            4U 1543-624 | candidateNS |             None |                                                                           Ludham et al. 2017, ATel, 10690 |
+| Swift J175233.9-290952 | candidateNS |         None |                                                                        Tetarenko et al. 2017, ATel, 10422 |
+|            4U 1543-624 | candidateNS |         None |                                                                           Ludham et al. 2017, ATel, 10690 |
 |       SAX J1808.4-3658 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
 |        IGR J00291+5934 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
 |        IGR J00291+5934 |    AMXP |             None |                                                                        Tudor et al. 2017, MNRAS, 470, 324 |
