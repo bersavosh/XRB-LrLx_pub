@@ -19,7 +19,7 @@ This is a database for radio and X-ray observation of X-ray binaries based on pu
   - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
   - [tMSPs](https://github.com/bersavosh/XRB-LrLx_pub#tmsps)
   - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
-- [Acknowledgment](https://github.com/bersavosh/XRB-LrLx_pub#acknowledgment)
+- [Using and citing this package](https://github.com/bersavosh/XRB-LrLx_pub#Using-and-citing-this-package)
 - [Plot](https://github.com/bersavosh/XRB-LrLx_pub#plot)
 
 ## Introduction
@@ -171,9 +171,9 @@ As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv18010
 - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
 - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
-## Acknowledgment
+## Using and citing this package
 
-If you use this package, we request that you cite the following record:
+If this package/database is useful to you, we request that you cite the following record:
 
 [Arash Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries](https://zenodo.org/record/6956521)
 
