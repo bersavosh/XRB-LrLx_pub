@@ -6,7 +6,7 @@
 
 *[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)* - Last update: Aug 3, 2022
 
-This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. There is also a simple python script to make the plot.
+This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. It also includes a simple python script to visualize the data.
 
 ## Contents
 
@@ -30,7 +30,20 @@ Many of these measurements have been done/reported in different radio and X-ray 
 
 ## Package Description
 
-This package contains a catalog of radio and X-ray observations of Galactic X-ray binaries and a simple Python script to plot these data using `Matplotlib` and `Pandas`. The catalog is available in form `csv` files in the data folder.
+**Data**: A catalog of radio and X-ray observations of Galactic X-ray binaries broken down based on system class. The data are stored in `.csv` format in the "data" directory, with all systems within a single system class included in a single file. Each data file has the following columns:
+
+- `Name` : Name of the source.
+- `Class` : System class, see [System types](https://github.com/bersavosh/XRB-LrLx_pub#system-types) for details.
+- `Lr` : Radio luminosity of the source in the 5 GHz band.
+- `Lr_ler` : Lower uncertainty on `Lr`.
+- `Lr_uer` : Upper uncertainty on `Lr`.
+- `Lx` : X-ray luminosity of the source in the 1-10 keV band.
+- `Lx_ler` : Lower uncertainty on `Lx`.
+- `Lx_uer` : Upper uncertainty on `Lx`.
+- `uplim` : Indicating whether the reported data point contains an upperlimit. `"None"` indicates both reported `"Lr"` and `"Lx"` for the point are detections. String of `Lr` or `Lx` in this columns indicates non-detection and uppoer limit value for radio or X-rays respectively.
+- `Ref` : The reference publication for the data point.
+
+**Script**: This package also contains a simple Python script to plot these data using `Matplotlib` and `Pandas` and allow easy modification to create your own version of the plot. The default output of this script is shown [here](https://github.com/bersavosh/XRB-LrLx_pub#plot).
 
 ## List of sources
 
