@@ -19,7 +19,7 @@ This is a database for radio and X-ray observation of X-ray binaries based on pu
   - [Odd sources](https://github.com/bersavosh/XRB-LrLx_pub#odd-sources)
   - [tMSPs](https://github.com/bersavosh/XRB-LrLx_pub#tmsps)
   - [Correlation lines](https://github.com/bersavosh/XRB-LrLx_pub#correlation-lines)
-- [Using and citing this package](https://github.com/bersavosh/XRB-LrLx_pub#Using-and-citing-this-package)
+- [Using and citing this package](https://github.com/bersavosh/XRB-LrLx_pub#using-and-citing-this-package)
 - [Plot](https://github.com/bersavosh/XRB-LrLx_pub#plot)
 
 ## Introduction
