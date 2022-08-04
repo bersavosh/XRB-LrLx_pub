@@ -1,6 +1,6 @@
 # Radio/X-ray correlation database for X-ray binaries
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6956521.svg)](https://zenodo.org/record/6956521)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6956521.svg)](https://zenodo.org/record/6956521)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 *[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)* - Last update: Aug 3, 2022 (Version 0.2)
 
