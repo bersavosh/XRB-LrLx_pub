@@ -48,7 +48,7 @@ Many of these measurements have been done/reported in different radio and X-ray 
 
 **Script**: This package also contains a simple Python script to plot these data using `Matplotlib` and `Pandas` and allow easy modification to create your own version of the plot. The default output of this script is shown [here](https://github.com/bersavosh/XRB-LrLx_pub#plot).
 
-**Notebooks**: There are also two notebooks, 
+**Notebooks**: There are also two notebooks, `example.ipynb` containing a brief example of how to modify the plot, and `quick_plotter.ipynb` which allows quick recreation of the plot for new sources. These notebooks can be executed in the browser, using Binder [here](https://mybinder.org/v2/gh/bersavosh/XRB-LrLx_pub/HEAD?labpath=quick_plotter.ipynb).
 
 
 ## List of sources
