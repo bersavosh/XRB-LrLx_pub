@@ -14,18 +14,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import rc
 
-# BW print-friendly color palette adopted from CubeHelix by Matt Davis
-colorset = ['#000000', '#00270C', '#00443C', '#005083', 
-            '#034BCA', '#483CFC', '#9C2BFF', '#EB24F4', 
-            '#FF2DC2', '#FF4986', '#FF7356', '#FFA443', 
-            '#EBD155', '#D3F187', '#D7FFC8', '#FFFFFF']
-
-
-# Matplotlib configuration to emulate text with LaTeX
-# If running into LaTex issues you can turn this off  by setting usetex=False below
-rc('text', usetex=True)
-rc('font', **{'family' : 'serif'})
-
 
 def data_reader(path_to_data = './data/', include_oddsources=False):
     """
@@ -94,6 +82,19 @@ def plotter(data, classes, fig, errorbars=True, uplims=True, cor_lines=True):
     fig: matplotlib figure with a new axis added with LrLx plotted.
     
     """
+    
+    # BW print-friendly color palette adopted from CubeHelix by Matt Davis
+    colorset = ['#000000', '#00270C', '#00443C', '#005083', 
+                '#034BCA', '#483CFC', '#9C2BFF', '#EB24F4', 
+                '#FF2DC2', '#FF4986', '#FF7356', '#FFA443', 
+                '#EBD155', '#D3F187', '#D7FFC8', '#FFFFFF']
+
+
+    # Matplotlib configuration to emulate text with LaTeX
+    # If running into LaTex issues you can turn this off  by setting usetex=False below
+    rc('text', usetex=True)
+    rc('font', **{'family' : 'serif'})
+    
     ax = fig.add_subplot(1,1,1)
 
     no_uplimdata = data[data['uplim'] == 'None']
@@ -131,15 +132,17 @@ def plotter(data, classes, fig, errorbars=True, uplims=True, cor_lines=True):
     
     # Plotting errorbars (if available):
     if errorbars and uplims:
-        ax.errorbar(x=data['Lx'], y=data['Lr'], 
-                    yerr=[data['Lr_ler'],data['Lr_uer']], 
-                    xerr=[data['Lx_ler'],data['Lx_uer']],
+        errorbardata = data[data['Class'].isin(classes)]
+        ax.errorbar(x=errorbardata['Lx'], y=errorbardata['Lr'], 
+                    yerr=[errorbardata['Lr_ler'],errorbardata['Lr_uer']], 
+                    xerr=[errorbardata['Lx_ler'],errorbardata['Lx_uer']],
                     fmt='.', ms=0,ecolor='k', zorder=0, elinewidth=0.8)
 
     elif errorbars and ~uplims:
-        ax.errorbar(x=no_uplimdata['Lx'], y=no_uplimdata['Lr'], 
-                    yerr=[no_uplimdata['Lr_ler'],no_uplimdata['Lr_uer']], 
-                    xerr=[no_uplimdata['Lx_ler'],no_uplimdata['Lx_uer']],
+        errorbardata = no_uplimdata[no_uplimdata['Class'].isin(no_uplimdata)]
+        ax.errorbar(x=errorbardata['Lx'], y=errorbardata['Lr'], 
+                    yerr=[errorbardata['Lr_ler'],errorbardata['Lr_uer']], 
+                    xerr=[errorbardata['Lx_ler'],errorbardata['Lx_uer']],
                     fmt='.', ms=0,ecolor='k', zorder=0, elinewidth=0.8)
 
     # Plotting upper limits:
@@ -172,14 +175,15 @@ def plotter(data, classes, fig, errorbars=True, uplims=True, cor_lines=True):
             cond = uplimdata['Class'] == 'WD'
             ax.loglog(uplimdata[cond]['Lx'],uplimdata[cond]['Lr'],
                       'd',ms=8, mec=colorset[10],mfc='w',mew=1,zorder=6)
+        
     
         
-        Xlimit_data = data[data['uplim']=='Lx']
+        Xlimit_data = data[data['Class'].isin(classes) & (data['uplim']=='Lx')]
         ax.errorbar(x=Xlimit_data['Lx'], 
                     y=Xlimit_data['Lr'], 
                     xerr=Xlimit_data['Lx']*0.5, xuplims=True,
                     fmt='.', ms=0,ecolor='k', zorder=0, elinewidth=0.8)
-        Rlimit_data = data[data['uplim']=='Lr']
+        Rlimit_data = data[data['Class'].isin(classes) & (data['uplim']=='Lr')]
         ax.errorbar(x=Rlimit_data['Lx'], 
                     y=Rlimit_data['Lr'], 
                     yerr=Rlimit_data['Lr']*0.5, uplims=True,
@@ -209,12 +213,17 @@ def plotter(data, classes, fig, errorbars=True, uplims=True, cor_lines=True):
     ax.tick_params('both', length=5, width=1, which='minor')
     ax.tick_params(axis='both', which='major', labelsize=16)
     ax.tick_params(axis='both', which='both',direction='in',right=True,top=True)
-    
+
     return fig
 
-#### 
-DATA = data_reader()
-CLASSES = ['BH', 'candidateBH', 'NS', 'candidateNS', 'AMXP', 'tMSP', 'WD']   
-FIG = plt.figure(figsize=(8,6))
-plotter(DATA,CLASSES,fig=FIG, uplims=True);
-FIG.savefig('lrlx_plot.jpg', dpi=300, bbox_inches='tight')
+
+def main_function():
+    DATA = data_reader()
+    CLASSES = ['BH', 'candidateBH', 'NS', 'candidateNS', 'AMXP', 'tMSP', 'WD']   
+    FIG = plt.figure(figsize=(8,6))
+    plotter(DATA,CLASSES,fig=FIG, uplims=True);
+    FIG.savefig('lrlx_plot.jpg', dpi=300, bbox_inches='tight')
+    
+    return FIG
+
+main_function();
