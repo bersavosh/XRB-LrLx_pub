@@ -177,7 +177,7 @@ As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv18010
 - The dotted black line shows the best-fit relation for BHs [Gallo et al. 2006](http://adsabs.harvard.edu/abs/2006MNRAS.370.1351G)
 - The blue dashed and dashed-dotted lines show the two suggested correlations for NS systems [Migliari & Fender 2006](http://adsabs.harvard.edu/abs/2006MNRAS.366...79M)
 
-## Using and citing this package
+## Citing this package
 
 If this package/database is useful to you, we request that you cite the following record:
 
