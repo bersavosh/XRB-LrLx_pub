@@ -1,7 +1,7 @@
 # Radio/X-ray correlation database for X-ray binaries
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6972578.svg)](https://doi.org/10.5281/zenodo.6972578)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/releases/tag/v0.2) 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/releases/tag/v220808) 
 [![GitHub](https://img.shields.io/github/license/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/LICENSE)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bersavosh/XRB-LrLx_pub/HEAD?labpath=quick_plotter.ipynb)
 
