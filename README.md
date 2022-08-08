@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/github/license/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/LICENSE)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bersavosh/XRB-LrLx_pub/HEAD?labpath=quick_plotter.ipynb)
 
-*[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)* - Last update: Aug 3, 2022
+*[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)*
 
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. It also includes a simple python script to visualize the data.
 
@@ -43,7 +43,7 @@ Many of these measurements have been done/reported in different radio and X-ray 
 - `Lx` : X-ray luminosity of the source in the 1-10 keV band.
 - `Lx_ler` : Lower uncertainty on `Lx`.
 - `Lx_uer` : Upper uncertainty on `Lx`.
-- `uplim` : Indicating whether the reported data point contains an upperlimit. `"None"` indicates both reported radio and X-ray luminosity values for the point are detections. String of `"Lr"` or `"Lx"` in this columns indicates non-detection and uppoer limit value for radio or X-rays respectively.
+- `uplim` : Indicating whether the reported data point contains an upperlimit. `"None"` indicates both reported radio and X-ray luminosity values for the point are detections. String of `"Lr"` or `"Lx"` in this columns indicates non-detection and upper limit value for radio or X-rays respectively.
 - `Ref` : The reference publication for the data point.
 
 **Script**: This package also contains a simple Python script to plot these data using `Matplotlib` and `Pandas` and allow easy modification to create your own version of the plot. The default output of this script is shown [here](https://github.com/bersavosh/XRB-LrLx_pub#plot).
