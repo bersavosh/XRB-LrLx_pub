@@ -177,23 +177,25 @@ As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv18010
 
 ## Citing this package
 
-If this package/database is useful to you, we request that you cite the following record:
+If this package/database is useful to you, we request that you cite the following Zenodo record:
 
-[Arash Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries](https://zenodo.org/record/6956521)
+[Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries (version 220808)](https://zenodo.org/record/6972578)
 
-Bibtex:
+Note that each version of this recod has a different DOI as managed by Zenodo. Thus, indicating the version facilitates comparison with the literature.
+
+Zenodo also provides a Bibtex reference for the package, for the current version it is:
 
 ```bibtex
-@software{arash_bahramian_2022_6956521,
+@software{arash_bahramian_2022_6972578,
   author       = {Arash Bahramian and
                   Anthony Rushton},
-  title        = {bersavosh/XRB-LrLx\_pub: 2022 script update},
+  title        = {bersavosh/XRB-LrLx\_pub: update 220808},
   month        = aug,
   year         = 2022,
   publisher    = {Zenodo},
-  version      = {v0.2},
-  doi          = {10.5281/zenodo.6956521},
-  url          = {https://doi.org/10.5281/zenodo.6956521}
+  version      = {v220808},
+  doi          = {10.5281/zenodo.6972578},
+  url          = {https://doi.org/10.5281/zenodo.6972578}
 }
 ```
 
