@@ -91,8 +91,8 @@ def plotter(data, classes, fig, errorbars=True, uplims=True, cor_lines=True):
 
 
     # Matplotlib configuration to emulate text with LaTeX
-    # If running into LaTex issues you can turn this off  by setting usetex=False below
-    rc('text', usetex=True)
+    # By default it is off, set usetex=True to change.
+    rc('text', usetex=False)
     rc('font', **{'family' : 'serif'})
     
     ax = fig.add_subplot(1,1,1)
