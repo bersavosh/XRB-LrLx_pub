@@ -43,7 +43,7 @@ Many of these measurements have been done/reported in different radio and X-ray 
 - `Lx` : X-ray luminosity of the source in the 1-10 keV band.
 - `Lx_ler` : Lower uncertainty on `Lx`.
 - `Lx_uer` : Upper uncertainty on `Lx`.
-- `uplim` : Indicating whether the reported data point contains an upperlimit. `"None"` indicates both reported `"Lr"` and `"Lx"` for the point are detections. String of `Lr` or `Lx` in this columns indicates non-detection and uppoer limit value for radio or X-rays respectively.
+- `uplim` : Indicating whether the reported data point contains an upperlimit. `"None"` indicates both reported radio and X-ray luminosity values for the point are detections. String of `"Lr"` or `"Lx"` in this columns indicates non-detection and uppoer limit value for radio or X-rays respectively.
 - `Ref` : The reference publication for the data point.
 
 **Script**: This package also contains a simple Python script to plot these data using `Matplotlib` and `Pandas` and allow easy modification to create your own version of the plot. The default output of this script is shown [here](https://github.com/bersavosh/XRB-LrLx_pub#plot).
