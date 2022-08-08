@@ -142,7 +142,7 @@ Since publication of the version published in [Tetarenko, B., et al. 2016](http:
 - **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies (Motta et al., in prep.).
 - **Release of Version 0.1 (May 2018)**
 - **2020 update**:
-  - A radio uppler limit data point for IGR J17511-3057 from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) was included here with a numerical error. The upper limit is 8e+27, and not 8e+28.
+  - A radio upper limit data point for IGR J17511-3057 from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) was included here with a numerical error. The upper limit is 8e+27, and not 8e+28.
   - One omitted data point for IGR J00291+5934 ([Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T)) is now included.
   - New source IGR J17591-2342 added based on [Russell et al. 2018](https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..16R/abstract) and [Gusinskaia et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1091G/abstract).
   - Thanks to Nina Gusinskaia for poiting out these issues and providing the data.
@@ -168,7 +168,7 @@ To have a complete database, we have also added available data for Cyg X1 (based
 
 ### tMSPs
 
-Transitional millisecond pulsars are a relatively new group of sources on this plot. There are still only a hanful of confirmed tMSPs identified and thus their behavior (on the Lr-Lx plane) is not fully explored. A recent study by [Bogdanov et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170908574B) indicates that in the faint accretion state, PSR J1023+0038 shows a strong anti-correlation between radio and X-ray luminosity. Based on the anti-correlation, it is also suggested that the radio emission might not be (entirely) from a self-absorbed jet. Thus, it is possible that comparing their radio and X-ray emission to other systems on this plot might not be appropriate.
+Transitional millisecond pulsars are a relatively new group of sources on this plot. There are still only a handful of confirmed tMSPs identified and thus their behavior (on the Lr-Lx plane) is not fully explored. A recent study by [Bogdanov et al. 2017](http://adsabs.harvard.edu/abs/2017arXiv170908574B) indicates that in the faint accretion state, PSR J1023+0038 shows a strong anti-correlation between radio and X-ray luminosity. Based on the anti-correlation, it is also suggested that the radio emission might not be (entirely) from a self-absorbed jet. Thus, it is possible that comparing their radio and X-ray emission to other systems on this plot might not be appropriate.
 
 ### Correlation lines
 
