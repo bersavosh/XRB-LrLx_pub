@@ -5,8 +5,6 @@
 [![GitHub](https://img.shields.io/github/license/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/LICENSE)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bersavosh/XRB-LrLx_pub/HEAD?labpath=quick_plotter.ipynb)
 
-*[Bahramian et al. 2018](http://doi.org/10.5281/zenodo.1252035)*
-
 This is a database for radio and X-ray observation of X-ray binaries based on published data in the literature. It also includes a simple python script to visualize the data.
 
 For quick plotting of new sources, you can launch [this Binder instance](https://mybinder.org/v2/gh/bersavosh/XRB-LrLx_pub/HEAD?labpath=quick_plotter.ipynb).
