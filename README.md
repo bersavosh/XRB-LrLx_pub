@@ -202,7 +202,7 @@ Zenodo also provides a Bibtex reference for the package, for the current version
 }
 ```
 
-This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. A complete list of contributors is available under [CONTRIBUTORS]. If you have contributed at any level to this repository via means other than pull requests, you are encouraged to add your name to this file.
+This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. A complete list of contributors is available under [CONTRIBUTORS](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/CONTRIBUTORS.md). If you have contributed at any level to this repository via means other than pull requests, you are encouraged to add your name to this file.
 
 ## Plot
 
