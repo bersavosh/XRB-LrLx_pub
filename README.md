@@ -56,14 +56,14 @@ All the sources included in this database and plot are tabulated below.
 ### System types
 
 - BH: Black hole XRBs (both confirmed and candidates).
-- candidateBH: Candidate black hole XRB systems which are classified based on radio/X-ray correlation.
-- NS: Neutros star XRBs (confirmed through type 1 X-ray bursts or pulsations)
+- candidateBH: Candidate black hole XRB systems which are primarily classified based on the radio/X-ray correlation.
+- NS: Neutron star XRBs (confirmed through type 1 X-ray bursts or pulsations)
 - candidateNS: Candidate neutron star XRB systems which are classified based on radio/X-ray correlation.
 - tMSP: Transitional Millisecond Pulsars (observations during accreting states - as opposed to pulsar state)
 - AMXP: Accreting millisecond X-ray pulsars
 - WD: White dwarf systems including cataclysmic variables (observations at or near flare peak) and other unusual WDs with bright radio detection.
 
-|                   Name |    Type | Golbular Cluster |                                                                                                 Reference |
+|                   Name |    Type | Globular Cluster |                                                                                                 Reference |
 |------------------------|---------|------------------|-----------------------------------------------------------------------------------------------------------|
 |               A0620-00 |      BH |             None |                                      Gallo et al. 2006, MNRAS, 370, 1351; Dincer et al. 2018, ApJ, 852, 4 |
 |          XTE J1118+480 |      BH |             None |                                  Fender et al. 2010, MNRAS, 406, 1425; Gallo et al. 2014, MNRAS, 445, 290 |
@@ -84,6 +84,7 @@ All the sources included in this database and plot are tabulated below.
 |             GS 1354-64 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
 |             4U 1543-47 |      BH |             None |                                                                         Gallo et al. 2003, MNRAS, 344, 60 |
 |          XTE J1650-500 |      BH |             None |                                                                        Corbel et al. 2004, ApJ, 617, 1272 |
+|         MAXI J1348-630 |      BH |             None |              Carotenuto F. et al., 2021b, MNRAS , 505, L58, Carotenuto F. et al., 2022b, arXiv:2208.00100 |
 |               M62-VLA1 | candidateBH |          M62 |                                             Chomiuk et al. 2013, ApJ, 777, 69; Bahramian et al., in prep. |
 |             M22-VLA1,2 | candidateBH |          M22 |                                                                       Strader et al. 2012, Natur, 490, 71 |
 |               47Tuc X9 | candidateBH |        47Tuc |                       Miller-Jones et al. 2015, MNRAS, 453, 3918; Bahramian et al. 2017, MNRAS, 467, 2199 |
@@ -137,16 +138,18 @@ Since publication of the version published in [Tetarenko, B., et al. 2016](http:
   - Data for A0620-00 updated based on [Dincer et al. 2018](http://adsabs.harvard.edu/abs/2018ApJ...852....4D).
 - **M10 VLA1** data added based on [Shishkovsky et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv180201704S).
 - **IGR J17379-3747** added based on [van den Eijnden et al. 2018](http://www.astronomerstelegram.org/?read=11487). NICER observations identified this transient as an AMXP ([Strohmayer et al. 2018](http://www.astronomerstelegram.org/?read=11507)).
-- **Major update (Apr 2018)** We have now added multiple sources and more data to some exisiting sources based on archival studies (Motta et al., in prep.).
+- **Major update (Apr 2018)** We have now added multiple sources and more data to some existing sources based on archival studies (Motta et al., in prep.).
 - **Release of Version 0.1 (May 2018)**
 - **2020 update**:
   - A radio upper limit data point for IGR J17511-3057 from [Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T) was included here with a numerical error. The upper limit is 8e+27, and not 8e+28.
   - One omitted data point for IGR J00291+5934 ([Tudor et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.470..324T)) is now included.
   - New source IGR J17591-2342 added based on [Russell et al. 2018](https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..16R/abstract) and [Gusinskaia et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1091G/abstract).
-  - Thanks to Nina Gusinskaia for poiting out these issues and providing the data.
+  - Thanks to Nina Gusinskaia for pointing out these issues and providing the data.
 - **2022 update 1**
   - Data re-organized into multiple `csv` files based on source classes to facilitate contributions and updates.
   - Plotting script updated to incorporate better practices and switch dependencies from pickles and `astropy` tables to `pandas` dataframes.
+  - Release of version v220808.
+- **MAXI J1348-630** data added based on [Carotenuto F. et al., 2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.505L..58C/abstract) and [Carotenuto F. et al., 2022](https://ui.adsabs.harvard.edu/abs/2022arXiv220800100C/abstract). Thanks to Francesco Carotenuto for providing the data.
 
 ## Warnings and cautions
 
@@ -199,9 +202,7 @@ Zenodo also provides a Bibtex reference for the package, for the current version
 }
 ```
 
-This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions.
-
-Contributors: [Alex Tetarenko](https://sites.ualberta.ca/~tetarenk/), [James Miller-Jones](https://staffportal.curtin.edu.au/staff/profile/view/James.Miller-Jones), [Jay Strader](http://web.pa.msu.edu/people/strader/), [Richard Plotkin](https://staffportal.curtin.edu.au/staff/profile/view/Richard.Plotkin), [Anthony Rushton](http://www2.physics.ox.ac.uk/contacts/people/rushton), [Vlad Tudor](https://www.icrar.org/people/vtudor/), [Laura Shishkovsky](https://astro.natsci.msu.edu/people/laura-shishkovsky/), [Sara Motta](https://www.wadham.ox.ac.uk/people/fellows-and-academic-staff/m/sara-motta), [Nina Gusinskaia](https://www.astro.utoronto.ca/people/post-docs/name/nina-gusinskaia/).
+This repository is maintained and updated by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have suggestions/comments/questions. A complete list of contributors is available under [CONTRIBUTORS]. If you have contributed at any level to this repository via means other than pull requests, you are encouraged to add your name to this file.
 
 ## Plot
 
