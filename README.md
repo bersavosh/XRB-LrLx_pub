@@ -1,7 +1,9 @@
 # Radio/X-ray correlation database for X-ray binaries
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6972578.svg)](https://doi.org/10.5281/zenodo.6972578)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/releases/tag/v220808) 
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7059313.svg)](https://doi.org/10.5281/zenodo.7059313)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/releases/tag/v220908)
 [![GitHub](https://img.shields.io/github/license/bersavosh/XRB-LrLx_pub)](https://github.com/bersavosh/XRB-LrLx_pub/blob/master/LICENSE)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bersavosh/XRB-LrLx_pub/HEAD?labpath=quick_plotter.ipynb)
 
@@ -180,25 +182,25 @@ As shown in [Tetarenko et al. 2018](http://adsabs.harvard.edu/abs/2018arXiv18010
 
 ## Citing this package
 
-If this package/database is useful to you, we request that you cite the following Zenodo record:
+If this package/database is useful to you, we request that you cite the following Zenodo record (for this version):
 
-[Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries (version 220808)](https://zenodo.org/record/6972578)
+[Bahramian et al. 2018; Radio/X-ray correlation database for X-ray binaries (version 220908)](https://zenodo.org/record/7059313)
 
 Note that each version of this recod has a different DOI as managed by Zenodo. Thus, indicating the version facilitates comparison with the literature.
 
 Zenodo also provides a Bibtex reference for the package, for the current version it is:
 
 ```bibtex
-@software{arash_bahramian_2022_6972578,
+@software{arash_bahramian_2022_7059313,
   author       = {Arash Bahramian and
                   Anthony Rushton},
-  title        = {bersavosh/XRB-LrLx\_pub: update 220808},
-  month        = aug,
+  title        = {bersavosh/XRB-LrLx\_pub: update 20220908},
+  month        = sep,
   year         = 2022,
   publisher    = {Zenodo},
-  version      = {v220808},
-  doi          = {10.5281/zenodo.6972578},
-  url          = {https://doi.org/10.5281/zenodo.6972578}
+  version      = {v220908},
+  doi          = {10.5281/zenodo.7059313},
+  url          = {https://doi.org/10.5281/zenodo.7059313}
 }
 ```
 
